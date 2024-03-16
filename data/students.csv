@@ -1,0 +1,22 @@
+﻿FirstName,LastName,Id,Email,CourseAttempted,Term,Grade
+Sushant,Sharma,40227986,Sushant.Sharma@mail.concordia.ca,SOEN6431,Fall 2023,F
+Sushant,Sharma,40227986,Sushant.Sharma@mail.concordia.ca,SOEN6431,Summer 2024,B
+Sushant,Sharma,40227986,Sushant.Sharma@mail.concordia.ca,COMP6741,Winter 2022,F
+Sushant,Sharma,40227986,Sushant.Sharma@mail.concordia.ca,COMP6741,Winter 2023,C
+Sharanyu,Pillai,40227985,Sharanyu.Pillai@mail.concordia.ca,COMP6741,Fall 2023,A
+Sharanyu,Pillai,40227985,Sharanyu.Pillai@mail.concordia.ca,COMP6741,Winter 2022,F
+Rochelle,Johnson,40227992,Rochelle.Johnson@mail.concordia.ca,SOEN6431,Fall 2023,C
+Rochelle,Johnson,40227992,Rochelle.Johnson@mail.concordia.ca,COMP6741,Winter 2022,C
+Preston,Suarez,40227994,Preston.Suarez@mail.concordia.ca,SOEN6431,Fall 2023,A
+Preston,Suarez,40227994,Preston.Suarez@mail.concordia.ca,SOEN6431,Winter 2022,F
+Natasha,Yarusso,40227990,Natasha.Yarusso@mail.concordia.ca,SOEN6431,Fall 2023,F
+Natasha,Yarusso,40227990,Natasha.Yarusso@mail.concordia.ca,SOEN6431,Winter 2023,B
+Maja,Nicholson,40227997,Maja.Nicholson@mail.concordia.ca,COMP6741,Fall 2023,B+
+Maja,Nicholson,40227997,Maja.Nicholson@mail.concordia.ca,SOEN6431,Winter 2023,B+
+Maa'iz,al-Dia,40227996,Maa'iz.al-Dia@mail.concordia.ca,SOEN6431,Summer 2023,B-
+Joshua,Lonaker,40227988,Joshua.Lonaker@mail.concordia.ca,COMP6741,Fall 2023,B
+Joshua,Lonaker,40227988,Joshua.Lonaker@mail.concordia.ca,SOEN6431,Winter 2022,A
+Edgar,Sanchez,40228000,Edgar.Sanchez@mail.concordia.ca,COMP6741,Fall 2023,B
+Brittany,Sath,40228002,Brittany.Sath@mail.concordia.ca,COMP6741,Fall 2023,F
+Brittany,Sath,40228002,Brittany.Sath@mail.concordia.ca,COMP6741,Fall 2024,F
+Brittany,Sath,40228002,Brittany.Sath@mail.concordia.ca,COMP6741,Winter 2024,B

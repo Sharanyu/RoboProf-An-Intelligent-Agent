@@ -1,7 +1,7 @@
 import os
 
 # List of courses with materials
-courses_with_materials = ["COMP474", "COMP6741", "SOEN6431"]
+courses_with_materials = ["COMP6741", "SOEN6431"]
 
 course_materials = ["slides", "worksheets", "readings", "assignments", "course_outline"]
 folder_path = "data/course_materials/"

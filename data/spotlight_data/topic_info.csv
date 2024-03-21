@@ -1,0 +1,806 @@
+lecture_content,topic_name,topic_URI,course_code
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,rdf,http://dbpedia.org/resource/Resource_Description_Framework,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,sameer,http://dbpedia.org/resource/Sameer_(lyricist),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,herman,http://dbpedia.org/resource/Edward_S._Herman,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,w3c,http://dbpedia.org/resource/World_Wide_Web_Consortium,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,graph,http://dbpedia.org/resource/Graph_database,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,uri,http://dbpedia.org/resource/Uniform_Resource_Identifier,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,n3,http://dbpedia.org/resource/Notation3,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,rdfa,http://dbpedia.org/resource/RDFa,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,json,http://dbpedia.org/resource/JSON,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,miroirs,http://dbpedia.org/resource/Miroirs,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,url,http://dbpedia.org/resource/URL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,unicode,http://dbpedia.org/resource/Unicode,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,glass palace,http://dbpedia.org/resource/Glaspaleis,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,london,http://dbpedia.org/resource/London,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,harper collins,http://dbpedia.org/resource/HarperCollins,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,leverage,http://dbpedia.org/resource/Leverage_(TV_series),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,flickr,http://dbpedia.org/resource/Flickr,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,auteur,http://dbpedia.org/resource/Auteur,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,ghostwriter,http://dbpedia.org/resource/Ghostwriter,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,dene,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,skos,http://dbpedia.org/resource/Simple_Knowledge_Organization_System,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,tbl,http://dbpedia.org/resource/Tampa_Bay_Lightning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,ted,http://dbpedia.org/resource/MOS_Technology_TED,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,rdfs,http://dbpedia.org/resource/RDF_Schema,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,semantics,http://dbpedia.org/resource/Semantic_Web,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,denes,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,transitive,http://dbpedia.org/resource/Transitive_relation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,entailment,http://dbpedia.org/resource/Logical_consequence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,vvv,http://dbpedia.org/resource/VVV-Venlo,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,predicate,http://dbpedia.org/resource/SQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,cnote,http://dbpedia.org/resource/CNote_(film),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,manning publications,http://dbpedia.org/resource/Manning_Publications,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,foaf,http://dbpedia.org/resource/FOAF_(ontology),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,metadata,http://dbpedia.org/resource/Metadata,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,interoperability,http://dbpedia.org/resource/Interoperability,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,semantic,http://dbpedia.org/resource/Semantic_Web,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,thesauri,http://dbpedia.org/resource/Thesaurus,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,acm,http://dbpedia.org/resource/Association_for_Computing_Machinery,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,loc,http://dbpedia.org/resource/Library_of_Congress,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,iso,http://dbpedia.org/resource/International_Organization_for_Standardization,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,metafiction,http://dbpedia.org/resource/Metafiction,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,bridge,http://dbpedia.org/resource/Contract_bridge,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,library,http://dbpedia.org/resource/Library,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,sparql,http://dbpedia.org/resource/SPARQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,oscars,http://dbpedia.org/resource/Academy_Awards,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,schemaorg,http://dbpedia.org/resource/Schema.org,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,christian,http://dbpedia.org/resource/Christianity,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,david wood,http://dbpedia.org/resource/Straitjacket_Fits,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,luke,http://dbpedia.org/resource/Gospel_of_Luke,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,berlin,http://dbpedia.org/resource/Berlin,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/VocabulariesAndOntologies03.pdf,heidelberg,http://dbpedia.org/resource/Heidelberg,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,resource description framework,http://dbpedia.org/resource/Resource_Description_Framework,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,data integration,http://dbpedia.org/resource/Data_integration,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,sameer,http://dbpedia.org/resource/Sameer_(lyricist),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,herman,http://dbpedia.org/resource/Edward_S._Herman,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,w3c,http://dbpedia.org/resource/World_Wide_Web_Consortium,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,neo4j,http://dbpedia.org/resource/Neo4j,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,graph,http://dbpedia.org/resource/Graph_database,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,graphiq,http://dbpedia.org/resource/Graphiq,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,rdf,http://dbpedia.org/resource/Resource_Description_Framework,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,reification,http://dbpedia.org/resource/Abstract_and_concrete,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,ontological,http://dbpedia.org/resource/Ontology,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,rdfa,http://dbpedia.org/resource/RDFa,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,owl,http://dbpedia.org/resource/Web_Ontology_Language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,skos,http://dbpedia.org/resource/Simple_Knowledge_Organization_System,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,cloud,http://dbpedia.org/resource/CLOUD_experiment,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,max,http://dbpedia.org/resource/MAX_Light_Rail,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,semantic networks,http://dbpedia.org/resource/Semantic_network,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,logic,http://dbpedia.org/resource/Logic,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,bottleneck,http://dbpedia.org/resource/Free_State_Bottleneck,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,oracle spatial,http://dbpedia.org/resource/Oracle_Spatial_and_Graph,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,facebook,http://dbpedia.org/resource/Facebook,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,google,http://dbpedia.org/resource/Google,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,wikidata,http://dbpedia.org/resource/Wikidata,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,dbpedia,http://dbpedia.org/resource/DBpedia,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,ted,http://dbpedia.org/resource/MOS_Technology_TED,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,predicate,http://dbpedia.org/resource/SQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,mona,http://dbpedia.org/resource/Mona_Vanderwaal,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,lisa,http://dbpedia.org/resource/Apple_Lisa,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,leonardo da vinci,http://dbpedia.org/resource/Leonardo_da_Vinci,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,draft,http://dbpedia.org/resource/Conscription,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,rdfs,http://dbpedia.org/resource/RDF_Schema,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,n3,http://dbpedia.org/resource/Notation3,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,sparql,http://dbpedia.org/resource/SPARQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,iri,http://dbpedia.org/resource/Internationalized_Resource_Identifier,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,datatype,http://dbpedia.org/resource/Data_type,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,strings,http://dbpedia.org/resource/String_instrument,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,uri,http://dbpedia.org/resource/Uniform_Resource_Identifier,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,server,http://dbpedia.org/resource/Web_server,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,html,http://dbpedia.org/resource/HTML,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,prex,http://dbpedia.org/resource/Glossary_of_ancient_Roman_religion,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,dene,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,foaf,http://dbpedia.org/resource/FOAF_(ontology),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,schema,http://dbpedia.org/resource/Data_model,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,java,http://dbpedia.org/resource/Java_virtual_machine,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,php,http://dbpedia.org/resource/PHP,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,isbn,http://dbpedia.org/resource/International_Standard_Book_Number,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,glass palace,http://dbpedia.org/resource/Glaspaleis,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,harper collins,http://dbpedia.org/resource/HarperCollins,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,london,http://dbpedia.org/resource/London,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,french,http://dbpedia.org/resource/French_language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,a12,http://dbpedia.org/resource/Nissan_A_engine,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,a11,http://dbpedia.org/resource/Taylorcraft_Auster,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,wikipedia,http://dbpedia.org/resource/Wikipedia,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,wlat,http://dbpedia.org/resource/WLAT,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,alone,http://dbpedia.org/resource/Poems_by_Edgar_Allan_Poe,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,probability,http://dbpedia.org/resource/Probability,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,plugins,http://dbpedia.org/resource/Browser_extension,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,adds,http://dbpedia.org/resource/Applied_Digital_Data_Systems,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,llm,http://dbpedia.org/resource/Master_of_Laws,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,metadata,http://dbpedia.org/resource/Metadata,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,identity management,http://dbpedia.org/resource/Identity_management,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,berlin,http://dbpedia.org/resource/Berlin,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/KnowledgeBase02.pdf,heidelberg,http://dbpedia.org/resource/Heidelberg,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,personalization,http://dbpedia.org/resource/Personalization,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,deep learning,http://dbpedia.org/resource/Deep_learning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,information extraction,http://dbpedia.org/resource/Information_extraction,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,lucene,http://dbpedia.org/resource/Apache_Lucene,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,solr,http://dbpedia.org/resource/Apache_Solr,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,english,http://dbpedia.org/resource/English_language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,nlp,http://dbpedia.org/resource/Natural_language_processing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,uima,http://dbpedia.org/resource/UIMA,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,gate,http://dbpedia.org/resource/General_Architecture_for_Text_Engineering,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,spacy,http://dbpedia.org/resource/SpaCy,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,saas,http://dbpedia.org/resource/Cloud_computing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,amazon,http://dbpedia.org/resource/Amazon_rainforest,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,leverage,http://dbpedia.org/resource/Leverage_(TV_series),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,schema,http://dbpedia.org/resource/Data_model,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,mona lisa,http://dbpedia.org/resource/Mona_Lisa,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,w3c,http://dbpedia.org/resource/World_Wide_Web_Consortium,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,metadata,http://dbpedia.org/resource/Metadata,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,resource description framework,http://dbpedia.org/resource/Resource_Description_Framework,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,rdf,http://dbpedia.org/resource/XML,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,predicate,http://dbpedia.org/resource/SQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,sparql,http://dbpedia.org/resource/SPARQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,ontology,http://dbpedia.org/resource/Ontology,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,graph,http://dbpedia.org/resource/Graph_database,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,chatbots,http://dbpedia.org/resource/Chatbot,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,stanford,http://dbpedia.org/resource/Stanford_University,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,schizophrenic,http://dbpedia.org/resource/Schizophrenia,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,alice,http://dbpedia.org/resource/Artificial_Linguistic_Internet_Computer_Entity,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,test,http://dbpedia.org/resource/Test_cricket,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,mit,http://dbpedia.org/resource/Massachusetts_Institute_of_Technology,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,psychotherapist,http://dbpedia.org/resource/Psychotherapy,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,siri,http://dbpedia.org/resource/Siri,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,alexa,http://dbpedia.org/resource/Amazon_Alexa,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,cortana,http://dbpedia.org/resource/Cortana,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,tay,http://dbpedia.org/resource/River_Tay,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,13b,http://dbpedia.org/resource/Wankel_engine,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,chatbot,http://dbpedia.org/resource/Chatbot,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,manning publications,http://dbpedia.org/resource/Manning_Publications,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,power7,http://dbpedia.org/resource/POWER7,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,transformer,http://dbpedia.org/resource/Transformer,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,ashish,http://dbpedia.org/resource/Ashish_Rai,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,parmar,http://dbpedia.org/resource/Paramara_dynasty,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,aidan,http://dbpedia.org/resource/Aidan_of_Lindisfarne,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,google,http://dbpedia.org/resource/Google,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,mystery,http://dbpedia.org/resource/Mystery_fiction,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,evolutionary biologist,http://dbpedia.org/resource/Evolution,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,la paz,http://dbpedia.org/resource/La_Paz,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,andes mountains,http://dbpedia.org/resource/Andes,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,fountain,http://dbpedia.org/resource/Well,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,rock,http://dbpedia.org/resource/Rock_music,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,peak water,http://dbpedia.org/resource/Peak_water,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,nding,http://dbpedia.org/resource/Nding_language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,civil war,http://dbpedia.org/resource/American_Civil_War,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,slavery,http://dbpedia.org/resource/Slavery,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,capitalism,http://dbpedia.org/resource/Capitalism,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,federalism,http://dbpedia.org/resource/Federalism,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,gettysburg,http://dbpedia.org/resource/Battle_of_Gettysburg,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,antietam,http://dbpedia.org/resource/Battle_of_Antietam,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,fredericksburg,http://dbpedia.org/resource/Battle_of_Fredericksburg,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,american,http://dbpedia.org/resource/United_States,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,republica,http://dbpedia.org/resource/Republica,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,openai,http://dbpedia.org/resource/OpenAI,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,fake news,http://dbpedia.org/resource/Fake_news,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,identity theft,http://dbpedia.org/resource/Identity_theft,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,cloud,http://dbpedia.org/resource/Cloud_computing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,api,http://dbpedia.org/resource/Application_programming_interface,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,microsoft,http://dbpedia.org/resource/Microsoft,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,dene,http://dbpedia.org/resource/Dene,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,hot topic,http://dbpedia.org/resource/Hot_Topic,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,ibm,http://dbpedia.org/resource/IBM,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,cole howard,http://dbpedia.org/resource/Cole_Howard,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/Introduction_to_Intelligent_Systems01.pdf,max,http://dbpedia.org/resource/Max_Fleischer,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,sparql,http://dbpedia.org/resource/SPARQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,lod,http://dbpedia.org/resource/Genetic_linkage,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,dbpedia,http://dbpedia.org/resource/DBpedia,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,herman,http://dbpedia.org/resource/Edward_S._Herman,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,w3c,http://dbpedia.org/resource/World_Wide_Web_Consortium,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,reading,http://dbpedia.org/resource/Reading,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,dene,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,semantics,http://dbpedia.org/resource/Semantic_Web,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,glass palace,http://dbpedia.org/resource/Glaspaleis,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,denes,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,rdf,http://dbpedia.org/resource/Resource_Description_Framework,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,rdfs,http://dbpedia.org/resource/RDF_Schema,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,web ontology language,http://dbpedia.org/resource/Web_Ontology_Language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,owl,http://dbpedia.org/resource/Web_Ontology_Language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,owl2,http://dbpedia.org/resource/Web_Ontology_Language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,dl,http://dbpedia.org/resource/X86,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,ql,http://dbpedia.org/resource/Sinclair_QL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,negation,http://dbpedia.org/resource/Negation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,amsterdam,http://dbpedia.org/resource/Amsterdam,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,symmetric,http://dbpedia.org/resource/Symmetry,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,transitive,http://dbpedia.org/resource/Transitive_relation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,logic,http://dbpedia.org/resource/Logic,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,compact,http://dbpedia.org/resource/Compact_space,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,mathematical notation,http://dbpedia.org/resource/Mathematical_notation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,protein,http://dbpedia.org/resource/Protein,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,biological pathway,http://dbpedia.org/resource/Biological_pathway,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,graph,http://dbpedia.org/resource/Graph_database,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,currency,http://dbpedia.org/resource/United_States_dollar,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,flickr,http://dbpedia.org/resource/Flickr,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,predicate,http://dbpedia.org/resource/SQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,berlin,http://dbpedia.org/resource/Berlin,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,heidelberg,http://dbpedia.org/resource/Heidelberg,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,avg,http://dbpedia.org/resource/AVG_AntiVirus,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,max,http://dbpedia.org/resource/MAX_Light_Rail,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,integral,http://dbpedia.org/resource/Integer,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,english,http://dbpedia.org/resource/English_language,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,strings,http://dbpedia.org/resource/String_theory,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,concordia university,http://dbpedia.org/resource/Main_Page,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,http,http://dbpedia.org/resource/Hypertext_Transfer_Protocol,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,soap,http://dbpedia.org/resource/SOAP,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,xml,http://dbpedia.org/resource/XML,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,json,http://dbpedia.org/resource/JSON,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,namea,http://dbpedia.org/resource/Namea,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,html,http://dbpedia.org/resource/HTML,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,nlp,http://dbpedia.org/resource/Natural_language_processing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,mona lisa,http://dbpedia.org/resource/Mona_Lisa,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,iri,http://dbpedia.org/resource/Internationalized_Resource_Identifier,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,manning publications,http://dbpedia.org/resource/Manning_Publications,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,post,http://dbpedia.org/resource/Power-on_self-test,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,neptune,http://dbpedia.org/resource/Neptune,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,apache,http://dbpedia.org/resource/Apache_HTTP_Server,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,fuseki,http://dbpedia.org/resource/Fuseki,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,moderen,http://dbpedia.org/resource/Moderen,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,entailment,http://dbpedia.org/resource/Logical_consequence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,silo,http://dbpedia.org/resource/Silo,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,csv,http://dbpedia.org/resource/Comma-separated_values,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,ig,http://dbpedia.org/resource/Inspector_general,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,canada,http://dbpedia.org/resource/Canada,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,city,http://dbpedia.org/resource/City,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,schema,http://dbpedia.org/resource/Data_model,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,uri,http://dbpedia.org/resource/Uniform_Resource_Identifier,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,metaweb,http://dbpedia.org/resource/Metaweb,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,google,http://dbpedia.org/resource/Google,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,freebase,http://dbpedia.org/resource/Freebase,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,wikidata,http://dbpedia.org/resource/Wikidata,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,babelnet,http://dbpedia.org/resource/BabelNet,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,morgan,http://dbpedia.org/resource/Morgan_Motor_Company,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,dieter fensel,http://dbpedia.org/resource/Dieter_Fensel,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,james hendler,http://dbpedia.org/resource/James_Hendler,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,christian,http://dbpedia.org/resource/Christianity,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,sebastian,http://dbpedia.org/resource/Saint_Sebastian,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,hellmann,http://dbpedia.org/resource/Gustav_Hellmann,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,milan,http://dbpedia.org/resource/Milan,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,springer,http://dbpedia.org/resource/Springer_Publishing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,david wood,http://dbpedia.org/resource/Straitjacket_Fits,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/BaseQueries_and_LinkedOpenDataset04.pdf,luke,http://dbpedia.org/resource/Gospel_of_Luke,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,ml,http://dbpedia.org/resource/Machine_learning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,arthur,http://dbpedia.org/resource/King_Arthur,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,socrates,http://dbpedia.org/resource/Socrates,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,inference,http://dbpedia.org/resource/Inference,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,rdfs,http://dbpedia.org/resource/RDF_Schema,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,ac,http://dbpedia.org/resource/Alternating_current,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,comp,http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,extrapolate,http://dbpedia.org/resource/Extrapolation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,dog,http://dbpedia.org/resource/Dog,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,elon musk,http://dbpedia.org/resource/Elon_Musk,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,inductive bias,http://dbpedia.org/resource/Inductive_bias,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,vector,http://dbpedia.org/resource/Array_data_structure,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,parallel distributed processing,http://dbpedia.org/resource/Connectionism,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,connectionist,http://dbpedia.org/resource/Connectionism,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,unsupervised,http://dbpedia.org/resource/Unsupervised_learning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,cosine,http://dbpedia.org/resource/Trigonometric_functions,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,idf,http://dbpedia.org/resource/Israel_Defense_Forces,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,qi,http://dbpedia.org/resource/Qi,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,enron,http://dbpedia.org/resource/Enron,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,wikileaks,http://dbpedia.org/resource/WikiLeaks,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,guantanamo bay,http://dbpedia.org/resource/Guantanamo_Bay_detention_camp,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,cia,http://dbpedia.org/resource/Central_Intelligence_Agency,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,facebook,http://dbpedia.org/resource/Facebook,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,cambridge analytica,http://dbpedia.org/resource/Cambridge_Analytica,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,luanda,http://dbpedia.org/resource/Luanda,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,paradise papers,http://dbpedia.org/resource/Paradise_Papers,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,ham,http://dbpedia.org/resource/Amateur_radio,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,algorithm,http://dbpedia.org/resource/Algorithm,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,denes,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,convergence,http://dbpedia.org/resource/Limit_of_a_sequence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,metric,http://dbpedia.org/resource/Metric_space,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,time complexity,http://dbpedia.org/resource/Time_complexity,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,nsf,http://dbpedia.org/resource/National_Science_Foundation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,knn,http://dbpedia.org/resource/K-nearest_neighbors_algorithm,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,manhattan,http://dbpedia.org/resource/New_York_City,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,contentin,http://dbpedia.org/resource/Cotentin_Peninsula,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,split,http://dbpedia.org/resource/Split_album,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,hyperparameters,http://dbpedia.org/resource/Hyperparameter,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,harmonic,http://dbpedia.org/resource/Harmonic,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,socalled,http://dbpedia.org/resource/Socalled,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,binary,http://dbpedia.org/resource/Binary_number,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,innocent ii,http://dbpedia.org/resource/Pope_Innocent_II,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,it risk,http://dbpedia.org/resource/IT_risk,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,tp,http://dbpedia.org/resource/Tipi,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,fn,http://dbpedia.org/resource/Karyotype,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,tptp,http://dbpedia.org/resource/Automated_theorem_proving,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,information retrieval,http://dbpedia.org/resource/Information_retrieval,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,bsd license,http://dbpedia.org/resource/BSD_licenses,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,complicated,http://dbpedia.org/resource/Complicated_(Avril_Lavigne_song),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,overtraining,http://dbpedia.org/resource/Overtraining,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,extreme,http://dbpedia.org/resource/Dimension_Films,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,chabacano,http://dbpedia.org/resource/Chavacano,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,creative commons,http://dbpedia.org/resource/Creative_Commons,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,decision boundary,http://dbpedia.org/resource/Decision_boundary,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,alison,http://dbpedia.org/resource/Alison_DiLaurentis,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,essence,http://dbpedia.org/resource/Essence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,chapter 7,http://dbpedia.org/resource/Chapter_VII_of_the_United_Nations_Charter,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/MachineLearning06.pdf,pustejovsky,http://dbpedia.org/resource/James_Pustejovsky,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,vector space,http://dbpedia.org/resource/Vector_space,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,christopher,http://dbpedia.org/resource/Christopher_Tolkien,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,prabhakar raghavan,http://dbpedia.org/resource/Prabhakar_Raghavan,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,cambridge university,http://dbpedia.org/resource/Cambridge_University_Press,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,normalized,http://dbpedia.org/resource/Unit_vector,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,l2 norm,http://dbpedia.org/resource/Lp_space,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,unit sphere,http://dbpedia.org/resource/Unit_sphere,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,magnitude,http://dbpedia.org/resource/Euclidean_vector,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,euclidean,http://dbpedia.org/resource/Euclidean_distance,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,monotonically decreasing,http://dbpedia.org/resource/Monotonic_function,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,cosine,http://dbpedia.org/resource/Trigonometric_functions,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,dot product,http://dbpedia.org/resource/Dot_product,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,scalar,http://dbpedia.org/resource/Dot_product,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,recommendation engine,http://dbpedia.org/resource/Recommender_system,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,matrix,http://dbpedia.org/resource/Definiteness_of_a_matrix,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,metadata,http://dbpedia.org/resource/Metadata,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,open knowledge,http://dbpedia.org/resource/Open_knowledge,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,ontologies,http://dbpedia.org/resource/Ontology,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,machine learning,http://dbpedia.org/resource/Machine_learning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,ground truth,http://dbpedia.org/resource/Ground_truth,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,amazon,http://dbpedia.org/resource/Amazon_rainforest,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,ap,http://dbpedia.org/resource/Wireless_access_point,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,discounted cumulative gain,http://dbpedia.org/resource/Discounted_cumulative_gain,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,internet,http://dbpedia.org/resource/World_Wide_Web,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,incidence,http://dbpedia.org/resource/Incidence_matrix,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,othello,http://dbpedia.org/resource/Othello,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,macbeth,http://dbpedia.org/resource/Macbeth,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,binary,http://dbpedia.org/resource/Binary_number,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,nv,http://dbpedia.org/resource/Nevada,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,mary,http://dbpedia.org/resource/Mary_Shelley,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,rare,http://dbpedia.org/resource/Rare_species,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,line,http://dbpedia.org/resource/Retrotransposon,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,idf,http://dbpedia.org/resource/Israel_Defense_Forces,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,dft,http://dbpedia.org/resource/Discrete_Fourier_transform,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,dene,http://dbpedia.org/resource/Dene_(valley),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,tfidf,http://dbpedia.org/resource/Tf–idf,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,hyphen,http://dbpedia.org/resource/Hyphen,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,rv,http://dbpedia.org/resource/Recreational_vehicle,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,toweb,http://dbpedia.org/resource/TOWeb,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,qi,http://dbpedia.org/resource/Qi,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/slides/RecommederSystems05.pdf,lengths,http://dbpedia.org/resource/Length,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,comp,http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,computer science,http://dbpedia.org/resource/Computer_science,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,er,http://dbpedia.org/resource/Emergency_medical_services,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,zoom,http://dbpedia.org/resource/Zoom_Corporation,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,moodle,http://dbpedia.org/resource/Moodle,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,alejandra,http://dbpedia.org/resource/Alejandra_(TV_series),COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,expert systems,http://dbpedia.org/resource/Expert_system,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,blackboard,http://dbpedia.org/resource/Blackboard,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,knowledge acquisition,http://dbpedia.org/resource/Knowledge_acquisition,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,conflict resolution,http://dbpedia.org/resource/Conflict_resolution,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,python,http://dbpedia.org/resource/Monty_Python,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,programming,http://dbpedia.org/resource/Computer_programming,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,json,http://dbpedia.org/resource/JSON,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,xml,http://dbpedia.org/resource/XML,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,nlp,http://dbpedia.org/resource/Natural_language_processing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,deep learning,http://dbpedia.org/resource/Deep_learning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,algebra,http://dbpedia.org/resource/Algebra,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,concordia,http://dbpedia.org/resource/Concordia_University,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,originality,http://dbpedia.org/resource/Originality,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,artificial intelligence,http://dbpedia.org/resource/Artificial_intelligence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,chatbots,http://dbpedia.org/resource/Software_agent,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,natural language processing,http://dbpedia.org/resource/Natural_language_processing,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,personalization,http://dbpedia.org/resource/Personalization,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,rdfs,http://dbpedia.org/resource/RDF_Schema,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,sparql,http://dbpedia.org/resource/SPARQL,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,ml,http://dbpedia.org/resource/Machine_learning,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,text mining,http://dbpedia.org/resource/Text_mining,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,acquire,http://dbpedia.org/resource/Acquire,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/COMP6741/course_outline/course_outline_comp474_6741_w2024.pdf,gina cody,http://dbpedia.org/resource/Gina_Cody,COMP6741
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,cloning,http://dbpedia.org/resource/Cloning,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,mozilla,http://dbpedia.org/resource/Firefox,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,milestone,http://dbpedia.org/resource/Milestone,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,clones,http://dbpedia.org/resource/Cloning,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,cognitive load,http://dbpedia.org/resource/Cognitive_load,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,industrial,http://dbpedia.org/resource/Industry,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,logic,http://dbpedia.org/resource/Boolean_algebra,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,parsing,http://dbpedia.org/resource/Parsing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,xwindow,http://dbpedia.org/resource/X_Window_System,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,pmax,http://dbpedia.org/resource/DECstation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,control flow,http://dbpedia.org/resource/Control_flow,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,clone,http://dbpedia.org/resource/Molecular_cloning,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,real number,http://dbpedia.org/resource/Real_number,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,genealogy,http://dbpedia.org/resource/Genealogy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,maintainability,http://dbpedia.org/resource/Maintainability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,core,http://dbpedia.org/resource/Congress_of_Racial_Equality,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,r6,http://dbpedia.org/resource/List_of_bus_routes_in_London,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,memory,http://dbpedia.org/resource/Memory_management,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,energy,http://dbpedia.org/resource/Energy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,communication,http://dbpedia.org/resource/Communication,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Clones07.pdf,bandwidth,http://dbpedia.org/resource/Spectral_line,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,maven,http://dbpedia.org/resource/Apache_Maven,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,java,http://dbpedia.org/resource/Java_virtual_machine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,build tool,http://dbpedia.org/resource/Build_automation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,plugins,http://dbpedia.org/resource/Browser_extension,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,jar,http://dbpedia.org/resource/Jar,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,project object model,http://dbpedia.org/resource/Apache_Maven,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,xml,http://dbpedia.org/resource/XML,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,reusability,http://dbpedia.org/resource/Reusability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,maintainability,http://dbpedia.org/resource/Maintainability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,ide,http://dbpedia.org/resource/Integrated_development_environment,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,source code,http://dbpedia.org/resource/Version_control,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,integration tests,http://dbpedia.org/resource/Integration_testing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,hunting,http://dbpedia.org/resource/Hunting,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,orthe,http://dbpedia.org/resource/Orthe,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,database,http://dbpedia.org/resource/Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,integrator,http://dbpedia.org/resource/Integrator,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,pain,http://dbpedia.org/resource/Pain,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,xp,http://dbpedia.org/resource/Extreme_programming,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,mantra,http://dbpedia.org/resource/Mantra,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,automation,http://dbpedia.org/resource/Automation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,cruisecontrol,http://dbpedia.org/resource/CruiseControl,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/ContiniousIntegration05.pdf,teamcity,http://dbpedia.org/resource/TeamCity,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,general idea,http://dbpedia.org/resource/General_Idea,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,cognitive,http://dbpedia.org/resource/Cognition,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,cognition,http://dbpedia.org/resource/Cognition,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,database,http://dbpedia.org/resource/Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,perl,http://dbpedia.org/resource/Perl,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,grep,http://dbpedia.org/resource/Grep,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,awk,http://dbpedia.org/resource/AWK,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,symbol table,http://dbpedia.org/resource/Symbol_table,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,parse tree,http://dbpedia.org/resource/Parse_tree,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,syntax,http://dbpedia.org/resource/Formal_grammar,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,grammar,http://dbpedia.org/resource/Formal_grammar,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,parsing,http://dbpedia.org/resource/Parsing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,gcd,http://dbpedia.org/resource/Greatest_common_divisor,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,semantics,http://dbpedia.org/resource/Semantics,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,ast,http://dbpedia.org/resource/Abstract_syntax_tree,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,type checking,http://dbpedia.org/resource/Type_system,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,graph,http://dbpedia.org/resource/Graph_theory,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,pizza,http://dbpedia.org/resource/Pizza,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,debugging,http://dbpedia.org/resource/Debugging,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,regression testing,http://dbpedia.org/resource/Regression_testing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,split,http://dbpedia.org/resource/RNK_Split,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,weiser,http://dbpedia.org/resource/Weiser_River,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,undecidable,http://dbpedia.org/resource/Undecidable_problem,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,i6,http://dbpedia.org/resource/Straight-six_engine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,ian,http://dbpedia.org/resource/Ian_Beale,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,ais,http://dbpedia.org/resource/Ais_people,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,dependence,http://dbpedia.org/resource/Dependent_and_independent_variables,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,predicate,http://dbpedia.org/resource/SQL,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Source_code_analysis06.pdf,pdga,http://dbpedia.org/resource/Professional_Disc_Golf_Association,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,short cuts,http://dbpedia.org/resource/Short_Cuts,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,bug,http://dbpedia.org/resource/Software_bug,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,sonar,http://dbpedia.org/resource/Sonar,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,general,http://dbpedia.org/resource/General_officer,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,test,http://dbpedia.org/resource/Test_cricket,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,devops,http://dbpedia.org/resource/DevOps,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,risk management,http://dbpedia.org/resource/Risk_management,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,exponential,http://dbpedia.org/resource/Time_complexity,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,database,http://dbpedia.org/resource/Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,api,http://dbpedia.org/resource/Application_programming_interface,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,unit tests,http://dbpedia.org/resource/Unit_testing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,leverage,http://dbpedia.org/resource/Leverage_(TV_series),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,wisdom,http://dbpedia.org/resource/Wisdom,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,seven,http://dbpedia.org/resource/Seven_of_Nine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,issn,http://dbpedia.org/resource/International_Standard_Book_Number,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,eisenberg,http://dbpedia.org/resource/Ruth_Brewer_Eisenberg,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,robert,http://dbpedia.org/resource/Robert_F._Kennedy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Technical_Debt03.pdf,sigsoft,http://dbpedia.org/resource/SIGSOFT,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,evolution,http://dbpedia.org/resource/Evolution,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,industrial,http://dbpedia.org/resource/Industry,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,semantic,http://dbpedia.org/resource/Programming_language,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,arthur,http://dbpedia.org/resource/King_Arthur,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,evolvability,http://dbpedia.org/resource/Evolvability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,ibm,http://dbpedia.org/resource/IBM,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,closed source,http://dbpedia.org/resource/Proprietary_software,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,opensource,http://dbpedia.org/resource/Open_source,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,pirzada,http://dbpedia.org/resource/Pirzada,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,unix,http://dbpedia.org/resource/Unix,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,os,http://dbpedia.org/resource/Operating_system,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,lunix,http://dbpedia.org/resource/LUnix,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,intellectual property,http://dbpedia.org/resource/Intellectual_property,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,cots,http://dbpedia.org/resource/Commercial_off-the-shelf,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,reverse engineering,http://dbpedia.org/resource/Reverse_engineering,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,uml,http://dbpedia.org/resource/Unified_Modeling_Language,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,reengineering,http://dbpedia.org/resource/Code_refactoring,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,oxford english dictionary,http://dbpedia.org/resource/Oxford_English_Dictionary,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,outsource,http://dbpedia.org/resource/Outsourcing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,mathematics,http://dbpedia.org/resource/Mathematics,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,theorem,http://dbpedia.org/resource/Theorem,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,hightech,http://dbpedia.org/resource/High_tech,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,swimmer,http://dbpedia.org/resource/Swimming,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,onetwo,http://dbpedia.org/resource/Onetwo_(band),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,dl,http://dbpedia.org/resource/X86,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,usability,http://dbpedia.org/resource/Usability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,middleware,http://dbpedia.org/resource/Middleware,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,regression,http://dbpedia.org/resource/Regression_testing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,smlc,http://dbpedia.org/resource/SMLC,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,iso,http://dbpedia.org/resource/International_Organization_for_Standardization,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,ieee,http://dbpedia.org/resource/IEEE_754,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,ripple,http://dbpedia.org/resource/Capillary_wave,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,cost risk,http://dbpedia.org/resource/Cost_overrun,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,pipeline,http://dbpedia.org/resource/Instruction_pipelining,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,acm,http://dbpedia.org/resource/Association_for_Computing_Machinery,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,css,http://dbpedia.org/resource/Cascading_Style_Sheets,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/IntroSoftwareEvolution01.pdf,dashed,http://dbpedia.org/resource/DASHED,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,internet,http://dbpedia.org/resource/World_Wide_Web,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,programming,http://dbpedia.org/resource/Computer_program,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,outsourcing,http://dbpedia.org/resource/Outsourcing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,open source movement,http://dbpedia.org/resource/Open-source-software_movement,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,scm,http://dbpedia.org/resource/Version_control,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,traceable,http://dbpedia.org/resource/Traceability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,time zone,http://dbpedia.org/resource/Time_zone,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,cm,http://dbpedia.org/resource/Television_advertisement,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,triage,http://dbpedia.org/resource/Triage,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,bug,http://dbpedia.org/resource/Software_bug,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,directory,http://dbpedia.org/resource/File_system,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,microsoft visual sourcesafe,http://dbpedia.org/resource/Microsoft_Visual_SourceSafe,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,cvs,http://dbpedia.org/resource/Concurrent_Versions_System,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,perforce,http://dbpedia.org/resource/Perforce,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,starting point,http://dbpedia.org/resource/Starting_Point,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,database,http://dbpedia.org/resource/Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,subversion,http://dbpedia.org/resource/Apache_Subversion,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,communication,http://dbpedia.org/resource/Communication,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,bitkeeper,http://dbpedia.org/resource/BitKeeper,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,linux,http://dbpedia.org/resource/Linux,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,linus,http://dbpedia.org/resource/Linus_Torvalds,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,git,http://dbpedia.org/resource/Git,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,workflow,http://dbpedia.org/resource/Workflow,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,init,http://dbpedia.org/resource/Init,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareRepositories05.pdf,clone,http://dbpedia.org/resource/IBM_PC_compatible,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,ieee,http://dbpedia.org/resource/Institute_of_Electrical_and_Electronics_Engineers,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,washington,http://dbpedia.org/resource/University_of_Washington,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,dc,http://dbpedia.org/resource/Direct_current,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,change control,http://dbpedia.org/resource/Change_control,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,organizational commitment,http://dbpedia.org/resource/Organizational_commitment,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,automation,http://dbpedia.org/resource/Automation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,matrices,http://dbpedia.org/resource/Square_matrix,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,matrix,http://dbpedia.org/resource/Composite_material,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,hard realtime,http://dbpedia.org/resource/Real-time_computing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,uml,http://dbpedia.org/resource/Unified_Modeling_Language,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,class diagram,http://dbpedia.org/resource/Class_diagram,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,cardinality,http://dbpedia.org/resource/Cardinality,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,pierce,http://dbpedia.org/resource/Franklin_Pierce,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,database,http://dbpedia.org/resource/Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,navy,http://dbpedia.org/resource/United_States_Navy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,acoustic,http://dbpedia.org/resource/Acoustics,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,focus,http://dbpedia.org/resource/Ford_Focus,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,data dictionary,http://dbpedia.org/resource/Data_dictionary,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,manager,http://dbpedia.org/resource/Management,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,mercurio,http://dbpedia.org/resource/Mercurio_the_4-D_Man,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,wc,http://dbpedia.org/resource/Flush_toilet,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,bk,http://dbpedia.org/resource/Burger_King,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,ibm,http://dbpedia.org/resource/IBM,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,programming,http://dbpedia.org/resource/Computer_program,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,oo,http://dbpedia.org/resource/Object-oriented_programming,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,rup,http://dbpedia.org/resource/Rational_Unified_Process,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,cots,http://dbpedia.org/resource/Commercial_off-the-shelf,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,outsourcing,http://dbpedia.org/resource/Outsourcing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,xp,http://dbpedia.org/resource/Extreme_programming,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,communication,http://dbpedia.org/resource/Communication,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,cvs,http://dbpedia.org/resource/Concurrent_Versions_System,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,bugzilla,http://dbpedia.org/resource/Bugzilla,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,internet,http://dbpedia.org/resource/World_Wide_Web,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,vector,http://dbpedia.org/resource/Array_data_structure,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,latent semantic indexing,http://dbpedia.org/resource/Latent_semantic_analysis,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,lsi,http://dbpedia.org/resource/Integrated_circuit,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,privacy,http://dbpedia.org/resource/Privacy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,google fit,http://dbpedia.org/resource/Google_Fit,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,java,http://dbpedia.org/resource/Java_(programming_language),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/SoftwareTraceability02.pdf,news,http://dbpedia.org/resource/Sony_NEWS,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,quality assurance,http://dbpedia.org/resource/Quality_assurance,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,agile development,http://dbpedia.org/resource/Agile_software_development,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,open source,http://dbpedia.org/resource/Open-source_software,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,hassan,http://dbpedia.org/resource/Prince_Hassan_bin_Talal,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,simon,http://dbpedia.org/resource/Herbert_A._Simon,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,fraser,http://dbpedia.org/resource/Malcolm_Fraser,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,uptodate,http://dbpedia.org/resource/UpToDate,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,cvs,http://dbpedia.org/resource/Concurrent_Versions_System,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,perforce,http://dbpedia.org/resource/Perforce,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,gnats,http://dbpedia.org/resource/GNATS,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,jira,http://dbpedia.org/resource/Jira_(software),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,codea,http://dbpedia.org/resource/Codea,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,evolution,http://dbpedia.org/resource/Evolution,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,defect tracking,http://dbpedia.org/resource/Defect_tracking,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,unitsa,http://dbpedia.org/resource/Unitsa,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,association rules,http://dbpedia.org/resource/Association_rule_learning,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,holt,http://dbpedia.org/resource/Henry_Holt_and_Company,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,loc,http://dbpedia.org/resource/Source_lines_of_code,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,irc,http://dbpedia.org/resource/Internet_Relay_Chat,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,network analysis,http://dbpedia.org/resource/Social_network,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,indegree,http://dbpedia.org/resource/Directed_graph,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,outdegree,http://dbpedia.org/resource/Directed_graph,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,psychometric,http://dbpedia.org/resource/Psychometrics,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,apache,http://dbpedia.org/resource/The_Apache_Software_Foundation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,kawaguchi,"http://dbpedia.org/resource/Kawaguchi,_Saitama",SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,li,http://dbpedia.org/resource/Lithium,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,java,http://dbpedia.org/resource/Java_virtual_machine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/MiningSoftwareRepositories04.pdf,api,http://dbpedia.org/resource/Application_programming_interface,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,source code documentation,http://dbpedia.org/resource/Software_documentation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,traceability,http://dbpedia.org/resource/Traceability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,transitive closure,http://dbpedia.org/resource/Transitive_closure,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,programming language,http://dbpedia.org/resource/Programming_language,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,logistics,http://dbpedia.org/resource/Logistics,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,sis,http://dbpedia.org/resource/Secret_Intelligence_Service,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,cis,http://dbpedia.org/resource/United_States_Citizenship_and_Immigration_Services,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,ais,http://dbpedia.org/resource/Automatic_identification_system,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,false positive,http://dbpedia.org/resource/False_Positive_(How_I_Met_Your_Mother),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,grep,http://dbpedia.org/resource/Grep,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,pattern matching,http://dbpedia.org/resource/Pattern_matching,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,unix,http://dbpedia.org/resource/Unix,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,reconnaissance,http://dbpedia.org/resource/Reconnaissance,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,wilde,http://dbpedia.org/resource/Oscar_Wilde,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,graph,http://dbpedia.org/resource/Graph_theory,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,silo,http://dbpedia.org/resource/Missile_launch_facility,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,ieee,http://dbpedia.org/resource/IEEE_754,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,cisa,http://dbpedia.org/resource/ISACA,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,fanout,http://dbpedia.org/resource/Fan-out,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,mac,http://dbpedia.org/resource/MAC_address,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,f4,http://dbpedia.org/resource/Fluorine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,req,http://dbpedia.org/resource/Req,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,sut,http://dbpedia.org/resource/System_under_test,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,delta,http://dbpedia.org/resource/Delta_Air_Lines,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,executable,http://dbpedia.org/resource/Compiler,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,comparator,http://dbpedia.org/resource/Comparator,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,shuffling,http://dbpedia.org/resource/Shuffling,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,pay attention,http://dbpedia.org/resource/Pay_Attention,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,pointer,http://dbpedia.org/resource/Function_pointer,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,heuristics,http://dbpedia.org/resource/Heuristic,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,budget constraint,http://dbpedia.org/resource/Budget_constraint,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,middleware,http://dbpedia.org/resource/Middleware,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,bug,http://dbpedia.org/resource/Software_bug,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,debugging,http://dbpedia.org/resource/Debugging,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,atm,http://dbpedia.org/resource/Asynchronous_transfer_mode,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,100 hours,http://dbpedia.org/resource/100_Hours,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,heuristic,http://dbpedia.org/resource/Heuristic,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,firewall,http://dbpedia.org/resource/Nick_Stone_Missions,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,firewalls,http://dbpedia.org/resource/Firewalls_and_Internet_Security,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,oo,http://dbpedia.org/resource/Object-oriented_programming,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,square root,http://dbpedia.org/resource/Square_root,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/slides/Impact_Analysis_and_RegressionTesting08.pdf,oracle,http://dbpedia.org/resource/Oracle_Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,michael godfrey,http://dbpedia.org/resource/Michael_Godfrey,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,hassan,http://dbpedia.org/resource/Prince_Hassan_bin_Talal,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,james,http://dbpedia.org/resource/James_VI_and_I,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,gail,http://dbpedia.org/resource/Gail_McIntyre,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,martin,http://dbpedia.org/resource/Glenn_L._Martin_Company,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,social networking,http://dbpedia.org/resource/Social_network,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,perry,http://dbpedia.org/resource/Perry_the_Platypus,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,david notkin,http://dbpedia.org/resource/David_Notkin,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,warns,http://dbpedia.org/resource/Warini,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,fools gold,http://dbpedia.org/resource/What_the_World_Is_Waiting_For,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,zeller,http://dbpedia.org/resource/Eduard_Zeller,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,thomas,http://dbpedia.org/resource/Clarence_Thomas,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,zimmermann,http://dbpedia.org/resource/Arthur_Zimmermann,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,cognitive psychology,http://dbpedia.org/resource/Cognitive_psychology,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,sensemaking,http://dbpedia.org/resource/Sensemaking,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,virtualization,http://dbpedia.org/resource/Virtual_machine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,evolution,http://dbpedia.org/resource/Evolution,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,cheriton,http://dbpedia.org/resource/List_of_villages_in_Gower,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,computer science,http://dbpedia.org/resource/Computer_science,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,contact,http://dbpedia.org/resource/Contact_(1997_American_film),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,queens,http://dbpedia.org/resource/Queens,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,limitless,http://dbpedia.org/resource/Limitless_(film),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,bug,http://dbpedia.org/resource/Software_bug,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,crashes,http://dbpedia.org/resource/2001_Omsk_An-70_crash,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,ibm jazz,http://dbpedia.org/resource/Rational_Software,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,logging,http://dbpedia.org/resource/Data_logger,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,configuration management,http://dbpedia.org/resource/Configuration_management,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,cms,http://dbpedia.org/resource/Content_management_system,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,structural level,http://dbpedia.org/resource/Structural_level,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,accounting,http://dbpedia.org/resource/Accounting,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,canada,http://dbpedia.org/resource/Canada,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,carnegie,http://dbpedia.org/resource/Carnegie_Mellon_University,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,mellon,http://dbpedia.org/resource/Andrew_W._Mellon_Foundation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,access network,http://dbpedia.org/resource/Access_network,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,mxr,http://dbpedia.org/resource/MXR,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,british,http://dbpedia.org/resource/United_Kingdom,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,algorithm,http://dbpedia.org/resource/Algorithm,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,chief operating officer,http://dbpedia.org/resource/Chief_operating_officer,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,mcgill,http://dbpedia.org/resource/McGill_University,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,library,http://dbpedia.org/resource/Library,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,california,http://dbpedia.org/resource/California,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,bioinformatics,http://dbpedia.org/resource/Bioinformatics,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,trove,http://dbpedia.org/resource/National_Library_of_Australia,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,oss,http://dbpedia.org/resource/Open-source_software,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,fred brooks,http://dbpedia.org/resource/Fred_Brooks,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,communication,http://dbpedia.org/resource/Communication,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,raymond,http://dbpedia.org/resource/Raymond_of_Poitiers,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,programming,http://dbpedia.org/resource/Computer_program,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,lengths,http://dbpedia.org/resource/Length,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,critical phenomenon,http://dbpedia.org/resource/Critical_phenomena,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,datas,http://dbpedia.org/resource/Collectible_card_game,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,qip,http://dbpedia.org/resource/Quiet_Internet_Pager,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,avaya,http://dbpedia.org/resource/Avaya,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,subversion,http://dbpedia.org/resource/Apache_Subversion,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,cvs,http://dbpedia.org/resource/Concurrent_Versions_System,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,version control,http://dbpedia.org/resource/Version_control,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,privacy,http://dbpedia.org/resource/Privacy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,formidable,http://dbpedia.org/resource/French_ship_Formidable,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,offshoring,http://dbpedia.org/resource/Offshoring,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,coevolve,http://dbpedia.org/resource/Coevolution,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,texas,http://dbpedia.org/resource/University_of_Texas_at_Austin,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,motorola,http://dbpedia.org/resource/Motorola,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,austin,http://dbpedia.org/resource/Austin_Motor_Company,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,sharon,http://dbpedia.org/resource/Ariel_Sharon,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,internet,http://dbpedia.org/resource/World_Wide_Web,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,fodder,http://dbpedia.org/resource/Fodder,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,john allen paulos,http://dbpedia.org/resource/John_Allen_Paulos,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,conspiracy theory,http://dbpedia.org/resource/Conspiracy_theory,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,lincoln kennedy,http://dbpedia.org/resource/Lincoln_Kennedy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,causality,http://dbpedia.org/resource/Causality,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,bradley,http://dbpedia.org/resource/Raymond_S._Bradley,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/MiningSoftware02.pdf,washington,http://dbpedia.org/resource/University_of_Washington,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,metaphor,http://dbpedia.org/resource/Metaphor,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,british columbia,http://dbpedia.org/resource/University_of_British_Columbia,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,nord,http://dbpedia.org/resource/Chemins_de_Fer_du_Nord,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,software engineering,http://dbpedia.org/resource/Software_engineering,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,steve mcconnell,http://dbpedia.org/resource/Steve_McConnell,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,martin,http://dbpedia.org/resource/Glenn_L._Martin_Company,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,fowler,http://dbpedia.org/resource/A_Dictionary_of_Modern_English_Usage,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,jim highsmith,http://dbpedia.org/resource/Jim_Highsmith,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,cutter consortium,http://dbpedia.org/resource/Cutter_Consortium,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,adds,http://dbpedia.org/resource/Applied_Digital_Data_Systems,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,friction,http://dbpedia.org/resource/Friction,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,amorphous,http://dbpedia.org/resource/Amorphous_solid,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,evolution,http://dbpedia.org/resource/Evolution,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,onin,http://dbpedia.org/resource/Onin_language,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,mount,http://dbpedia.org/resource/Working_animal,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,imperative,http://dbpedia.org/resource/Imperative_programming,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,impose,http://dbpedia.org/resource/Impose_(magazine),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,database,http://dbpedia.org/resource/Database,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,sullivan,http://dbpedia.org/resource/Arthur_Sullivan,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,npv,http://dbpedia.org/resource/Net_present_value,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,roa,http://dbpedia.org/resource/Russian_Liberation_Army,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,icse,http://dbpedia.org/resource/Indian_Certificate_of_Secondary_Education,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,ieee,http://dbpedia.org/resource/Institute_of_Electrical_and_Electronics_Engineers,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,erin,http://dbpedia.org/resource/Erin_Hannon,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,nitin,http://dbpedia.org/resource/Nithiin,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,lisa,http://dbpedia.org/resource/Apple_Lisa,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,taxonomy,http://dbpedia.org/resource/Linnaean_taxonomy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,bill curtis,http://dbpedia.org/resource/Bill_Curtis,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,alexandra,http://dbpedia.org/resource/Alexandra_of_Denmark,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,sqale,http://dbpedia.org/resource/SQALE,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,iso,http://dbpedia.org/resource/International_Organization_for_Standardization,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,testability,http://dbpedia.org/resource/Testability,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,vancouver,http://dbpedia.org/resource/Vancouver,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,canada,http://dbpedia.org/resource/Canada,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,ifip,http://dbpedia.org/resource/International_Federation_for_Information_Processing,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,paris,http://dbpedia.org/resource/Paris,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,professional engineer,http://dbpedia.org/resource/Regulation_and_licensure_in_engineering,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,csdp,http://dbpedia.org/resource/Common_Security_and_Defence_Policy,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,contact,http://dbpedia.org/resource/Contact_(1997_American_film),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,carnegie,http://dbpedia.org/resource/Carnegie_Mellon_University,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,mellon,http://dbpedia.org/resource/Andrew_W._Mellon_Foundation,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,acm,http://dbpedia.org/resource/Association_for_Computing_Machinery,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,requirements management,http://dbpedia.org/resource/Requirements_management,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,israel,http://dbpedia.org/resource/Israel,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,christof ebert,http://dbpedia.org/resource/Christof_Ebert,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,len bass,http://dbpedia.org/resource/Len_Bass,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,oopsla,http://dbpedia.org/resource/OOPSLA,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,sterling,http://dbpedia.org/resource/Sterling_Trucks,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,doi,http://dbpedia.org/resource/Digital_object_identifier,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,crosstalk,http://dbpedia.org/resource/CrossTalk,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/readings/TechnicalDebt01.pdf,sigsoft,http://dbpedia.org/resource/SIGSOFT,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,soen,http://dbpedia.org/resource/Soen,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,computer science engineering,http://dbpedia.org/resource/Computer_science,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,er,http://dbpedia.org/resource/Emergency_medical_services,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,zoom,http://dbpedia.org/resource/Reverse-Flash,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,code analysis,http://dbpedia.org/resource/Static_program_analysis,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,configuration management,http://dbpedia.org/resource/Configuration_management,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,devops,http://dbpedia.org/resource/DevOps,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,programming,http://dbpedia.org/resource/Programming_language,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,java,http://dbpedia.org/resource/Java_virtual_machine,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,moodle,http://dbpedia.org/resource/Moodle,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,final exam,http://dbpedia.org/resource/Final_Exam_(1981_film),SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,issue tracker,http://dbpedia.org/resource/Issue_tracking_system,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,ai,http://dbpedia.org/resource/Artificial_intelligence,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,plagiarism,http://dbpedia.org/resource/Plagiarism,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,internet,http://dbpedia.org/resource/World_Wide_Web,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,fellow student,http://dbpedia.org/resource/Fellow_Student,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,general,http://dbpedia.org/resource/General_officer,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,concordia university,http://dbpedia.org/resource/Main_Page,SOEN6431
+/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/SOEN6431/course_outline/Course_Outline_SOEN_6431_Winter_2024.pdf,gina cody,http://dbpedia.org/resource/Gina_Cody,SOEN6431

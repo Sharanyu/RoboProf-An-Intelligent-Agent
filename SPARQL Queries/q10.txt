@@ -1,0 +1,15 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema1: <http://schema.org/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+PREFIX dbpedia_p: <http://dbpedia.org/property/>
+SELECT ?topic ?topicLabel ?dbpedia_link
+WHERE {
+  ?course a schema1:Course .
+  ?course rb:containsLecture ?lecture .
+  ?lecture dbpedia_p:number ?lectureNumber .
+  ?lecture rb:coversTopic ?topic .
+  ?topic rdfs:label ?topicLabel .
+  ?topic rdfs:seeAlso ?dbpedia_link
+  FILTER (?course = rb_data:SOEN6431)
+}

@@ -1,0 +1,17 @@
+PREFIX schema1: <http://schema.org/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+PREFIX dbpedia_o: <http://dbpedia.org/ontology/>
+PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
+PREFIX schema1: <http://schema.org/>
+PREFIX dbpedia_p: <http://dbpedia.org/property/>
+
+SELECT ?course (CONCAT(?subject, " ", ?courseCode, ": ", ?title) AS ?courseTitle) WHERE {
+  ?university a dbpedia_o:University ;
+              rb:courses ?course .
+  ?course a schema1:Course ;
+          dbcore:subject ?subject ;
+          dbpedia_p:number ?courseCode ;
+          dbcore:title ?title .
+  FILTER (?university = rb_data:Concordia_University)
+}

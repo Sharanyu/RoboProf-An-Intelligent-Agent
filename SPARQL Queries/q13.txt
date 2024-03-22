@@ -1,0 +1,22 @@
+PREFIX dbc: <http://dbpedia.org/resource/Category:>
+PREFIX db: <http://dbpedia.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+prefix dbcore: <http://purl.org/dc/elements/1.1/>
+prefix dbpedia_p: <http://dbpedia.org/property/>
+
+SELECT ?courseTitle (CONCAT(?subject, ?number) AS ?Course) ?sem ?grade 
+WHERE {
+  ?student rdf:type foaf:Person ;
+           foaf:givenName ?firstName ;  
+           foaf:familyName ?lastname .  
+  ?student rb:courseAttempted ?attempt .
+  ?attempt rb:course ?course ;
+           rb:Grade ?grade ;
+           rb:Semester ?sem .
+  ?course  dbcore:title ?courseTitle ;
+  		   dbcore:subject ?subject ;
+  		   dbpedia_p:number ?number .
+  FILTER (?firstName = "Sushant" && ?lastname = "Sharma")
+}

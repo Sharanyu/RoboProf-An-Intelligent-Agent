@@ -1,0 +1,265 @@
+topic,topicLabel,dbpedia_link
+http://ROBOPROF.org/data#Perforce,perforce,http://dbpedia.org/resource/Perforce
+http://ROBOPROF.org/data#Traceability,traceability,http://dbpedia.org/resource/Traceability
+http://ROBOPROF.org/data#Traceability,traceable,http://dbpedia.org/resource/Traceability
+http://ROBOPROF.org/data#Starting_Point,starting point,http://dbpedia.org/resource/Starting_Point
+http://ROBOPROF.org/data#BitKeeper,bitkeeper,http://dbpedia.org/resource/BitKeeper
+http://ROBOPROF.org/data#Open-source-software_movement,open source movement,http://dbpedia.org/resource/Open-source-software_movement
+http://ROBOPROF.org/data#Workflow,workflow,http://dbpedia.org/resource/Workflow
+http://ROBOPROF.org/data#File_system,directory,http://dbpedia.org/resource/File_system
+http://ROBOPROF.org/data#Version_control,source code,http://dbpedia.org/resource/Version_control
+http://ROBOPROF.org/data#Version_control,scm,http://dbpedia.org/resource/Version_control
+http://ROBOPROF.org/data#Soen,soen,http://dbpedia.org/resource/Soen
+http://ROBOPROF.org/data#IBM_PC_compatible,clone,http://dbpedia.org/resource/IBM_PC_compatible
+http://ROBOPROF.org/data#Linux,linux,http://dbpedia.org/resource/Linux
+http://ROBOPROF.org/data#Microsoft_Visual_SourceSafe,microsoft visual sourcesafe,http://dbpedia.org/resource/Microsoft_Visual_SourceSafe
+http://ROBOPROF.org/data#Init,init,http://dbpedia.org/resource/Init
+http://ROBOPROF.org/data#Linus_Torvalds,linus,http://dbpedia.org/resource/Linus_Torvalds
+http://ROBOPROF.org/data#Outsourcing,outsourcing,http://dbpedia.org/resource/Outsourcing
+http://ROBOPROF.org/data#Outsourcing,outsource,http://dbpedia.org/resource/Outsourcing
+http://ROBOPROF.org/data#Computer_program,programming,http://dbpedia.org/resource/Computer_program
+http://ROBOPROF.org/data#Television_advertisement,cm,http://dbpedia.org/resource/Television_advertisement
+http://ROBOPROF.org/data#Database,database,http://dbpedia.org/resource/Database
+http://ROBOPROF.org/data#Concurrent_Versions_System,cvs,http://dbpedia.org/resource/Concurrent_Versions_System
+http://ROBOPROF.org/data#Git,git,http://dbpedia.org/resource/Git
+http://ROBOPROF.org/data#Apache_Subversion,subversion,http://dbpedia.org/resource/Apache_Subversion
+http://ROBOPROF.org/data#Communication,communication,http://dbpedia.org/resource/Communication
+http://ROBOPROF.org/data#World_Wide_Web,internet,http://dbpedia.org/resource/World_Wide_Web
+http://ROBOPROF.org/data#Time_zone,time zone,http://dbpedia.org/resource/Time_zone
+http://ROBOPROF.org/data#Software_bug,bug,http://dbpedia.org/resource/Software_bug
+http://ROBOPROF.org/data#Triage,triage,http://dbpedia.org/resource/Triage
+http://ROBOPROF.org/data#Perforce,perforce,http://dbpedia.org/resource/Perforce
+"http://ROBOPROF.org/data#Kawaguchi,_Saitama",kawaguchi,"http://dbpedia.org/resource/Kawaguchi,_Saitama"
+http://ROBOPROF.org/data#Herbert_A._Simon,simon,http://dbpedia.org/resource/Herbert_A._Simon
+http://ROBOPROF.org/data#Social_network,network analysis,http://dbpedia.org/resource/Social_network
+http://ROBOPROF.org/data#Java_virtual_machine,java,http://dbpedia.org/resource/Java_virtual_machine
+http://ROBOPROF.org/data#Agile_software_development,agile development,http://dbpedia.org/resource/Agile_software_development
+http://ROBOPROF.org/data#Application_programming_interface,api,http://dbpedia.org/resource/Application_programming_interface
+http://ROBOPROF.org/data#Internet_Relay_Chat,irc,http://dbpedia.org/resource/Internet_Relay_Chat
+http://ROBOPROF.org/data#Malcolm_Fraser,fraser,http://dbpedia.org/resource/Malcolm_Fraser
+http://ROBOPROF.org/data#Evolution,evolutionary biologist,http://dbpedia.org/resource/Evolution
+http://ROBOPROF.org/data#Evolution,evolution,http://dbpedia.org/resource/Evolution
+http://ROBOPROF.org/data#Unitsa,unitsa,http://dbpedia.org/resource/Unitsa
+http://ROBOPROF.org/data#Lithium,li,http://dbpedia.org/resource/Lithium
+http://ROBOPROF.org/data#Prince_Hassan_bin_Talal,hassan,http://dbpedia.org/resource/Prince_Hassan_bin_Talal
+http://ROBOPROF.org/data#Association_rule_learning,association rules,http://dbpedia.org/resource/Association_rule_learning
+http://ROBOPROF.org/data#GNATS,gnats,http://dbpedia.org/resource/GNATS
+http://ROBOPROF.org/data#Jira_(software),jira,http://dbpedia.org/resource/Jira_(software)
+http://ROBOPROF.org/data#Henry_Holt_and_Company,holt,http://dbpedia.org/resource/Henry_Holt_and_Company
+http://ROBOPROF.org/data#Quality_assurance,quality assurance,http://dbpedia.org/resource/Quality_assurance
+http://ROBOPROF.org/data#Source_lines_of_code,loc,http://dbpedia.org/resource/Source_lines_of_code
+http://ROBOPROF.org/data#Psychometrics,psychometric,http://dbpedia.org/resource/Psychometrics
+http://ROBOPROF.org/data#Open-source_software,open source,http://dbpedia.org/resource/Open-source_software
+http://ROBOPROF.org/data#Concurrent_Versions_System,cvs,http://dbpedia.org/resource/Concurrent_Versions_System
+http://ROBOPROF.org/data#Directed_graph,outdegree,http://dbpedia.org/resource/Directed_graph
+http://ROBOPROF.org/data#Directed_graph,indegree,http://dbpedia.org/resource/Directed_graph
+http://ROBOPROF.org/data#Codea,codea,http://dbpedia.org/resource/Codea
+http://ROBOPROF.org/data#UpToDate,uptodate,http://dbpedia.org/resource/UpToDate
+http://ROBOPROF.org/data#Defect_tracking,defect tracking,http://dbpedia.org/resource/Defect_tracking
+http://ROBOPROF.org/data#The_Apache_Software_Foundation,apache,http://dbpedia.org/resource/The_Apache_Software_Foundation
+http://ROBOPROF.org/data#SMLC,smlc,http://dbpedia.org/resource/SMLC
+http://ROBOPROF.org/data#Swimming,swimmer,http://dbpedia.org/resource/Swimming
+http://ROBOPROF.org/data#Industry,industrial,http://dbpedia.org/resource/Industry
+http://ROBOPROF.org/data#Operating_system,os,http://dbpedia.org/resource/Operating_system
+http://ROBOPROF.org/data#IBM,ibm,http://dbpedia.org/resource/IBM
+http://ROBOPROF.org/data#DASHED,dashed,http://dbpedia.org/resource/DASHED
+http://ROBOPROF.org/data#Usability,usability,http://dbpedia.org/resource/Usability
+http://ROBOPROF.org/data#Onetwo_(band),onetwo,http://dbpedia.org/resource/Onetwo_(band)
+http://ROBOPROF.org/data#Evolution,evolutionary biologist,http://dbpedia.org/resource/Evolution
+http://ROBOPROF.org/data#Evolution,evolution,http://dbpedia.org/resource/Evolution
+http://ROBOPROF.org/data#Association_for_Computing_Machinery,acm,http://dbpedia.org/resource/Association_for_Computing_Machinery
+http://ROBOPROF.org/data#Soen,soen,http://dbpedia.org/resource/Soen
+http://ROBOPROF.org/data#Commercial_off-the-shelf,cots,http://dbpedia.org/resource/Commercial_off-the-shelf
+http://ROBOPROF.org/data#Oxford_English_Dictionary,oxford english dictionary,http://dbpedia.org/resource/Oxford_English_Dictionary
+http://ROBOPROF.org/data#Theorem,theorem,http://dbpedia.org/resource/Theorem
+http://ROBOPROF.org/data#Code_refactoring,reengineering,http://dbpedia.org/resource/Code_refactoring
+http://ROBOPROF.org/data#Cascading_Style_Sheets,css,http://dbpedia.org/resource/Cascading_Style_Sheets
+http://ROBOPROF.org/data#High_tech,hightech,http://dbpedia.org/resource/High_tech
+http://ROBOPROF.org/data#Open_source,opensource,http://dbpedia.org/resource/Open_source
+http://ROBOPROF.org/data#Unix,unix,http://dbpedia.org/resource/Unix
+http://ROBOPROF.org/data#Outsourcing,outsourcing,http://dbpedia.org/resource/Outsourcing
+http://ROBOPROF.org/data#Outsourcing,outsource,http://dbpedia.org/resource/Outsourcing
+http://ROBOPROF.org/data#Instruction_pipelining,pipeline,http://dbpedia.org/resource/Instruction_pipelining
+http://ROBOPROF.org/data#International_Organization_for_Standardization,iso,http://dbpedia.org/resource/International_Organization_for_Standardization
+http://ROBOPROF.org/data#Pirzada,pirzada,http://dbpedia.org/resource/Pirzada
+http://ROBOPROF.org/data#Regression_testing,regression testing,http://dbpedia.org/resource/Regression_testing
+http://ROBOPROF.org/data#Regression_testing,regression,http://dbpedia.org/resource/Regression_testing
+http://ROBOPROF.org/data#Cost_overrun,cost risk,http://dbpedia.org/resource/Cost_overrun
+http://ROBOPROF.org/data#X86,dl,http://dbpedia.org/resource/X86
+http://ROBOPROF.org/data#Unified_Modeling_Language,uml,http://dbpedia.org/resource/Unified_Modeling_Language
+http://ROBOPROF.org/data#Evolvability,evolvability,http://dbpedia.org/resource/Evolvability
+http://ROBOPROF.org/data#King_Arthur,arthur,http://dbpedia.org/resource/King_Arthur
+http://ROBOPROF.org/data#IEEE_754,ieee,http://dbpedia.org/resource/IEEE_754
+http://ROBOPROF.org/data#Capillary_wave,ripple,http://dbpedia.org/resource/Capillary_wave
+http://ROBOPROF.org/data#Reverse_engineering,reverse engineering,http://dbpedia.org/resource/Reverse_engineering
+http://ROBOPROF.org/data#Programming_language,programming language,http://dbpedia.org/resource/Programming_language
+http://ROBOPROF.org/data#Programming_language,semantic,http://dbpedia.org/resource/Programming_language
+http://ROBOPROF.org/data#Middleware,middleware,http://dbpedia.org/resource/Middleware
+http://ROBOPROF.org/data#Intellectual_property,intellectual property,http://dbpedia.org/resource/Intellectual_property
+http://ROBOPROF.org/data#Proprietary_software,closed source,http://dbpedia.org/resource/Proprietary_software
+http://ROBOPROF.org/data#LUnix,lunix,http://dbpedia.org/resource/LUnix
+http://ROBOPROF.org/data#Mathematics,mathematics,http://dbpedia.org/resource/Mathematics
+http://ROBOPROF.org/data#Industry,industrial,http://dbpedia.org/resource/Industry
+http://ROBOPROF.org/data#Maintainability,maintainability,http://dbpedia.org/resource/Maintainability
+http://ROBOPROF.org/data#List_of_bus_routes_in_London,r6,http://dbpedia.org/resource/List_of_bus_routes_in_London
+http://ROBOPROF.org/data#Congress_of_Racial_Equality,core,http://dbpedia.org/resource/Congress_of_Racial_Equality
+http://ROBOPROF.org/data#Spectral_line,bandwidth,http://dbpedia.org/resource/Spectral_line
+http://ROBOPROF.org/data#X_Window_System,xwindow,http://dbpedia.org/resource/X_Window_System
+http://ROBOPROF.org/data#Parsing,parsing,http://dbpedia.org/resource/Parsing
+http://ROBOPROF.org/data#Genealogy,genealogy,http://dbpedia.org/resource/Genealogy
+http://ROBOPROF.org/data#Real_number,real number,http://dbpedia.org/resource/Real_number
+http://ROBOPROF.org/data#Memory_management,memory,http://dbpedia.org/resource/Memory_management
+http://ROBOPROF.org/data#Firefox,mozilla,http://dbpedia.org/resource/Firefox
+http://ROBOPROF.org/data#Boolean_algebra,logic,http://dbpedia.org/resource/Boolean_algebra
+http://ROBOPROF.org/data#Milestone,milestone,http://dbpedia.org/resource/Milestone
+http://ROBOPROF.org/data#Cloning,cloning,http://dbpedia.org/resource/Cloning
+http://ROBOPROF.org/data#Cloning,clones,http://dbpedia.org/resource/Cloning
+http://ROBOPROF.org/data#DECstation,pmax,http://dbpedia.org/resource/DECstation
+http://ROBOPROF.org/data#Energy,energy,http://dbpedia.org/resource/Energy
+http://ROBOPROF.org/data#Molecular_cloning,clone,http://dbpedia.org/resource/Molecular_cloning
+http://ROBOPROF.org/data#Control_flow,control flow,http://dbpedia.org/resource/Control_flow
+http://ROBOPROF.org/data#Cognitive_load,cognitive load,http://dbpedia.org/resource/Cognitive_load
+http://ROBOPROF.org/data#Communication,communication,http://dbpedia.org/resource/Communication
+http://ROBOPROF.org/data#AWK,awk,http://dbpedia.org/resource/AWK
+http://ROBOPROF.org/data#Ais_people,ais,http://dbpedia.org/resource/Ais_people
+http://ROBOPROF.org/data#Dependent_and_independent_variables,dependence,http://dbpedia.org/resource/Dependent_and_independent_variables
+http://ROBOPROF.org/data#Undecidable_problem,undecidable,http://dbpedia.org/resource/Undecidable_problem
+http://ROBOPROF.org/data#Parsing,parsing,http://dbpedia.org/resource/Parsing
+http://ROBOPROF.org/data#Abstract_syntax_tree,ast,http://dbpedia.org/resource/Abstract_syntax_tree
+http://ROBOPROF.org/data#Straight-six_engine,i6,http://dbpedia.org/resource/Straight-six_engine
+http://ROBOPROF.org/data#Semantics,semantics,http://dbpedia.org/resource/Semantics
+http://ROBOPROF.org/data#Symbol_table,symbol table,http://dbpedia.org/resource/Symbol_table
+http://ROBOPROF.org/data#Debugging,debugging,http://dbpedia.org/resource/Debugging
+http://ROBOPROF.org/data#Soen,soen,http://dbpedia.org/resource/Soen
+http://ROBOPROF.org/data#Greatest_common_divisor,gcd,http://dbpedia.org/resource/Greatest_common_divisor
+http://ROBOPROF.org/data#Ian_Beale,ian,http://dbpedia.org/resource/Ian_Beale
+http://ROBOPROF.org/data#Pizza,pizza,http://dbpedia.org/resource/Pizza
+http://ROBOPROF.org/data#Professional_Disc_Golf_Association,pdga,http://dbpedia.org/resource/Professional_Disc_Golf_Association
+http://ROBOPROF.org/data#Type_system,type checking,http://dbpedia.org/resource/Type_system
+http://ROBOPROF.org/data#Regression_testing,regression testing,http://dbpedia.org/resource/Regression_testing
+http://ROBOPROF.org/data#Regression_testing,regression,http://dbpedia.org/resource/Regression_testing
+http://ROBOPROF.org/data#Database,database,http://dbpedia.org/resource/Database
+http://ROBOPROF.org/data#Cognition,cognition,http://dbpedia.org/resource/Cognition
+http://ROBOPROF.org/data#Cognition,cognitive,http://dbpedia.org/resource/Cognition
+http://ROBOPROF.org/data#Weiser_River,weiser,http://dbpedia.org/resource/Weiser_River
+http://ROBOPROF.org/data#Formal_grammar,syntax,http://dbpedia.org/resource/Formal_grammar
+http://ROBOPROF.org/data#Formal_grammar,grammar,http://dbpedia.org/resource/Formal_grammar
+http://ROBOPROF.org/data#Parse_tree,parse tree,http://dbpedia.org/resource/Parse_tree
+http://ROBOPROF.org/data#Artificial_intelligence,ai,http://dbpedia.org/resource/Artificial_intelligence
+http://ROBOPROF.org/data#Graph_theory,graph,http://dbpedia.org/resource/Graph_theory
+http://ROBOPROF.org/data#Perl,perl,http://dbpedia.org/resource/Perl
+http://ROBOPROF.org/data#SQL,predicate,http://dbpedia.org/resource/SQL
+http://ROBOPROF.org/data#General_Idea,general idea,http://dbpedia.org/resource/General_Idea
+http://ROBOPROF.org/data#RNK_Split,split,http://dbpedia.org/resource/RNK_Split
+http://ROBOPROF.org/data#Grep,grep,http://dbpedia.org/resource/Grep
+http://ROBOPROF.org/data#Integrator,integrator,http://dbpedia.org/resource/Integrator
+http://ROBOPROF.org/data#Pain,pain,http://dbpedia.org/resource/Pain
+http://ROBOPROF.org/data#Maintainability,maintainability,http://dbpedia.org/resource/Maintainability
+http://ROBOPROF.org/data#Apache_Maven,maven,http://dbpedia.org/resource/Apache_Maven
+http://ROBOPROF.org/data#Apache_Maven,project object model,http://dbpedia.org/resource/Apache_Maven
+http://ROBOPROF.org/data#Reusability,reusability,http://dbpedia.org/resource/Reusability
+http://ROBOPROF.org/data#Java_virtual_machine,java,http://dbpedia.org/resource/Java_virtual_machine
+http://ROBOPROF.org/data#Orthe,orthe,http://dbpedia.org/resource/Orthe
+http://ROBOPROF.org/data#Browser_extension,plugins,http://dbpedia.org/resource/Browser_extension
+http://ROBOPROF.org/data#Hunting,hunting,http://dbpedia.org/resource/Hunting
+http://ROBOPROF.org/data#Version_control,source code,http://dbpedia.org/resource/Version_control
+http://ROBOPROF.org/data#Version_control,scm,http://dbpedia.org/resource/Version_control
+http://ROBOPROF.org/data#Mantra,mantra,http://dbpedia.org/resource/Mantra
+http://ROBOPROF.org/data#CruiseControl,cruisecontrol,http://dbpedia.org/resource/CruiseControl
+http://ROBOPROF.org/data#XML,rdf,http://dbpedia.org/resource/XML
+http://ROBOPROF.org/data#XML,xml,http://dbpedia.org/resource/XML
+http://ROBOPROF.org/data#Jar,jar,http://dbpedia.org/resource/Jar
+http://ROBOPROF.org/data#Automation,automation,http://dbpedia.org/resource/Automation
+http://ROBOPROF.org/data#Integrated_development_environment,ide,http://dbpedia.org/resource/Integrated_development_environment
+http://ROBOPROF.org/data#TeamCity,teamcity,http://dbpedia.org/resource/TeamCity
+http://ROBOPROF.org/data#Extreme_programming,xp,http://dbpedia.org/resource/Extreme_programming
+http://ROBOPROF.org/data#Database,database,http://dbpedia.org/resource/Database
+http://ROBOPROF.org/data#Build_automation,build tool,http://dbpedia.org/resource/Build_automation
+http://ROBOPROF.org/data#Integration_testing,integration tests,http://dbpedia.org/resource/Integration_testing
+http://ROBOPROF.org/data#Comparator,comparator,http://dbpedia.org/resource/Comparator
+http://ROBOPROF.org/data#Missile_launch_facility,silo,http://dbpedia.org/resource/Missile_launch_facility
+http://ROBOPROF.org/data#Traceability,traceability,http://dbpedia.org/resource/Traceability
+http://ROBOPROF.org/data#Traceability,traceable,http://dbpedia.org/resource/Traceability
+http://ROBOPROF.org/data#Pattern_matching,pattern matching,http://dbpedia.org/resource/Pattern_matching
+http://ROBOPROF.org/data#Reconnaissance,reconnaissance,http://dbpedia.org/resource/Reconnaissance
+http://ROBOPROF.org/data#Req,req,http://dbpedia.org/resource/Req
+http://ROBOPROF.org/data#Nick_Stone_Missions,firewall,http://dbpedia.org/resource/Nick_Stone_Missions
+http://ROBOPROF.org/data#Function_pointer,pointer,http://dbpedia.org/resource/Function_pointer
+http://ROBOPROF.org/data#ISACA,cisa,http://dbpedia.org/resource/ISACA
+http://ROBOPROF.org/data#Object-oriented_programming,oo,http://dbpedia.org/resource/Object-oriented_programming
+http://ROBOPROF.org/data#Oracle_Database,oracle,http://dbpedia.org/resource/Oracle_Database
+http://ROBOPROF.org/data#Secret_Intelligence_Service,sis,http://dbpedia.org/resource/Secret_Intelligence_Service
+http://ROBOPROF.org/data#Asynchronous_transfer_mode,atm,http://dbpedia.org/resource/Asynchronous_transfer_mode
+http://ROBOPROF.org/data#Debugging,debugging,http://dbpedia.org/resource/Debugging
+http://ROBOPROF.org/data#Compiler,executable,http://dbpedia.org/resource/Compiler
+http://ROBOPROF.org/data#Soen,soen,http://dbpedia.org/resource/Soen
+http://ROBOPROF.org/data#Fluorine,f4,http://dbpedia.org/resource/Fluorine
+http://ROBOPROF.org/data#MAC_address,mac,http://dbpedia.org/resource/MAC_address
+http://ROBOPROF.org/data#Transitive_closure,transitive closure,http://dbpedia.org/resource/Transitive_closure
+http://ROBOPROF.org/data#Pay_Attention,pay attention,http://dbpedia.org/resource/Pay_Attention
+http://ROBOPROF.org/data#Logistics,logistics,http://dbpedia.org/resource/Logistics
+http://ROBOPROF.org/data#Unix,unix,http://dbpedia.org/resource/Unix
+http://ROBOPROF.org/data#Delta_Air_Lines,delta,http://dbpedia.org/resource/Delta_Air_Lines
+http://ROBOPROF.org/data#Shuffling,shuffling,http://dbpedia.org/resource/Shuffling
+http://ROBOPROF.org/data#Budget_constraint,budget constraint,http://dbpedia.org/resource/Budget_constraint
+http://ROBOPROF.org/data#Automatic_identification_system,ais,http://dbpedia.org/resource/Automatic_identification_system
+http://ROBOPROF.org/data#United_States_Citizenship_and_Immigration_Services,cis,http://dbpedia.org/resource/United_States_Citizenship_and_Immigration_Services
+http://ROBOPROF.org/data#100_Hours,100 hours,http://dbpedia.org/resource/100_Hours
+http://ROBOPROF.org/data#False_Positive_(How_I_Met_Your_Mother),false positive,http://dbpedia.org/resource/False_Positive_(How_I_Met_Your_Mother)
+http://ROBOPROF.org/data#Fan-out,fanout,http://dbpedia.org/resource/Fan-out
+http://ROBOPROF.org/data#Heuristic,heuristics,http://dbpedia.org/resource/Heuristic
+http://ROBOPROF.org/data#Heuristic,heuristic,http://dbpedia.org/resource/Heuristic
+http://ROBOPROF.org/data#Firewalls_and_Internet_Security,firewalls,http://dbpedia.org/resource/Firewalls_and_Internet_Security
+http://ROBOPROF.org/data#IEEE_754,ieee,http://dbpedia.org/resource/IEEE_754
+http://ROBOPROF.org/data#Programming_language,programming language,http://dbpedia.org/resource/Programming_language
+http://ROBOPROF.org/data#Programming_language,semantic,http://dbpedia.org/resource/Programming_language
+http://ROBOPROF.org/data#Middleware,middleware,http://dbpedia.org/resource/Middleware
+http://ROBOPROF.org/data#Oscar_Wilde,wilde,http://dbpedia.org/resource/Oscar_Wilde
+http://ROBOPROF.org/data#Graph_theory,graph,http://dbpedia.org/resource/Graph_theory
+http://ROBOPROF.org/data#Software_documentation,source code documentation,http://dbpedia.org/resource/Software_documentation
+http://ROBOPROF.org/data#Software_bug,bug,http://dbpedia.org/resource/Software_bug
+http://ROBOPROF.org/data#Square_root,square root,http://dbpedia.org/resource/Square_root
+http://ROBOPROF.org/data#System_under_test,sut,http://dbpedia.org/resource/System_under_test
+http://ROBOPROF.org/data#Grep,grep,http://dbpedia.org/resource/Grep
+http://ROBOPROF.org/data#Institute_of_Electrical_and_Electronics_Engineers,ieee,http://dbpedia.org/resource/Institute_of_Electrical_and_Electronics_Engineers
+http://ROBOPROF.org/data#Franklin_Pierce,pierce,http://dbpedia.org/resource/Franklin_Pierce
+http://ROBOPROF.org/data#Direct_current,dc,http://dbpedia.org/resource/Direct_current
+http://ROBOPROF.org/data#Java_(programming_language),java,http://dbpedia.org/resource/Java_(programming_language)
+http://ROBOPROF.org/data#IBM,ibm,http://dbpedia.org/resource/IBM
+http://ROBOPROF.org/data#Square_matrix,matrices,http://dbpedia.org/resource/Square_matrix
+http://ROBOPROF.org/data#Management,manager,http://dbpedia.org/resource/Management
+http://ROBOPROF.org/data#Real-time_computing,hard realtime,http://dbpedia.org/resource/Real-time_computing
+http://ROBOPROF.org/data#Ford_Focus,focus,http://dbpedia.org/resource/Ford_Focus
+http://ROBOPROF.org/data#Class_diagram,class diagram,http://dbpedia.org/resource/Class_diagram
+http://ROBOPROF.org/data#Object-oriented_programming,oo,http://dbpedia.org/resource/Object-oriented_programming
+http://ROBOPROF.org/data#Privacy,privacy,http://dbpedia.org/resource/Privacy
+http://ROBOPROF.org/data#Soen,soen,http://dbpedia.org/resource/Soen
+http://ROBOPROF.org/data#Sony_NEWS,news,http://dbpedia.org/resource/Sony_NEWS
+http://ROBOPROF.org/data#Commercial_off-the-shelf,cots,http://dbpedia.org/resource/Commercial_off-the-shelf
+http://ROBOPROF.org/data#Integrated_circuit,lsi,http://dbpedia.org/resource/Integrated_circuit
+http://ROBOPROF.org/data#United_States_Navy,navy,http://dbpedia.org/resource/United_States_Navy
+http://ROBOPROF.org/data#Rational_Unified_Process,rup,http://dbpedia.org/resource/Rational_Unified_Process
+http://ROBOPROF.org/data#University_of_Washington,washington,http://dbpedia.org/resource/University_of_Washington
+http://ROBOPROF.org/data#Outsourcing,outsourcing,http://dbpedia.org/resource/Outsourcing
+http://ROBOPROF.org/data#Outsourcing,outsource,http://dbpedia.org/resource/Outsourcing
+http://ROBOPROF.org/data#Computer_program,programming,http://dbpedia.org/resource/Computer_program
+http://ROBOPROF.org/data#Flush_toilet,wc,http://dbpedia.org/resource/Flush_toilet
+http://ROBOPROF.org/data#Organizational_commitment,organizational commitment,http://dbpedia.org/resource/Organizational_commitment
+http://ROBOPROF.org/data#Automation,automation,http://dbpedia.org/resource/Automation
+http://ROBOPROF.org/data#Cardinality,cardinality,http://dbpedia.org/resource/Cardinality
+http://ROBOPROF.org/data#Array_data_structure,vector,http://dbpedia.org/resource/Array_data_structure
+http://ROBOPROF.org/data#Extreme_programming,xp,http://dbpedia.org/resource/Extreme_programming
+http://ROBOPROF.org/data#Change_control,change control,http://dbpedia.org/resource/Change_control
+http://ROBOPROF.org/data#Database,database,http://dbpedia.org/resource/Database
+http://ROBOPROF.org/data#Unified_Modeling_Language,uml,http://dbpedia.org/resource/Unified_Modeling_Language
+http://ROBOPROF.org/data#Latent_semantic_analysis,latent semantic indexing,http://dbpedia.org/resource/Latent_semantic_analysis
+http://ROBOPROF.org/data#Concurrent_Versions_System,cvs,http://dbpedia.org/resource/Concurrent_Versions_System
+http://ROBOPROF.org/data#Data_dictionary,data dictionary,http://dbpedia.org/resource/Data_dictionary
+http://ROBOPROF.org/data#Burger_King,bk,http://dbpedia.org/resource/Burger_King
+http://ROBOPROF.org/data#Google_Fit,google fit,http://dbpedia.org/resource/Google_Fit
+http://ROBOPROF.org/data#Communication,communication,http://dbpedia.org/resource/Communication
+http://ROBOPROF.org/data#World_Wide_Web,internet,http://dbpedia.org/resource/World_Wide_Web
+http://ROBOPROF.org/data#Acoustics,acoustic,http://dbpedia.org/resource/Acoustics
+http://ROBOPROF.org/data#Bugzilla,bugzilla,http://dbpedia.org/resource/Bugzilla
+http://ROBOPROF.org/data#Mercurio_the_4-D_Man,mercurio,http://dbpedia.org/resource/Mercurio_the_4-D_Man
+http://ROBOPROF.org/data#Composite_material,matrix,http://dbpedia.org/resource/Composite_material

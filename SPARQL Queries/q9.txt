@@ -1,0 +1,17 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema1: <http://schema.org/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
+
+SELECT ?lecture ?slides
+WHERE {
+  ?course a schema1:Course .
+  ?course dbcore:subject ?subject .
+  ?course rb:containsLecture ?lecture .
+  ?lecture rb:slides ?slides .
+  ?lecture rb:coversTopic ?topic .
+  ?topic rdfs:label ?topicLabel .
+  FILTER(REGEX(?topicLabel, "version", "i"))
+  FILTER (?subject = "SOEN")
+}

@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+
+SELECT ?firstName ?lastname ?sem ?grade
+WHERE {
+  ?student rdf:type foaf:Person ;
+           foaf:givenName ?firstName ;  
+           foaf:familyName ?lastname .
+
+  ?attempt rb:course ?course ;
+           rb:Grade ?grade ;
+  		   rb:Semester ?sem .
+           
+  ?student rb:courseAttempted ?attempt .
+    FILTER (?firstName = "Sharanyu" && ?lastname = "Pillai" && ?course = rb_data:COMP6741)
+}

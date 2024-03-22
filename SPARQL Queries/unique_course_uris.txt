@@ -1,0 +1,7 @@
+PREFIX schema: <http://schema.org/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+
+SELECT (COUNT(DISTINCT ?course) AS ?courseCount)
+WHERE {
+  ?course a schema:Course .
+}

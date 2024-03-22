@@ -1,0 +1,15 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema1: <http://schema.org/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
+
+SELECT Distinct ?course ?courseTitle
+WHERE {
+  ?course a schema1:Course .
+  ?course dbcore:title ?courseTitle .
+  ?course rb:containsLecture ?lecture .
+  ?lecture rb:coversTopic ?topic .
+  ?topic rdfs:label ?topicLabel .
+  FILTER(REGEX(?topicLabel, "evolution", "i"))
+}

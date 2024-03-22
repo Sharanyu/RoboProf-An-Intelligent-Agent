@@ -1,0 +1,9 @@
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?resourceURL WHERE {
+  ?course a schema:Course ;
+          schema:courseCode "COURSE_CODE" ;
+          rb_data:hasResource ?resource .
+  ?resource schema:url ?resourceURL .
+}

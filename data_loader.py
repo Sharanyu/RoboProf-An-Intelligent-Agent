@@ -1,12 +1,17 @@
 import pandas as pd
+import read_config as rc
+
+config = rc.load_config()
 
 
 def merge_data():
     course_description = pd.read_csv(
-        "data/CU_SR_OPEN_DATA_CATALOG_DESC.csv", encoding="utf-16", on_bad_lines="skip"
+        rc.normalize_path(config["course_description"]),
+        encoding="utf-16",
+        on_bad_lines="skip",
     )
     course_data = pd.read_csv(
-        "data/CU_SR_OPEN_DATA_CATALOG.csv", encoding="utf-16", on_bad_lines="skip"
+        rc.normalize_path(config["course_data"]), encoding="utf-16", on_bad_lines="skip"
     )
 
     course_data = course_data.filter(
@@ -40,10 +45,10 @@ def merge_data():
 
 
 def load_spotlight_annotations():
-    df = pd.read_csv("data/spotlight_data/topic_info.csv")
+    df = pd.read_csv(rc.normalize_path(config["spotlight_path"]) + "/topic_info.csv")
     return df
 
 
 def read_students_data():
-    students_df = pd.read_csv("data/students.csv")
+    students_df = pd.read_csv(rc.normalize_path(config["students_data"]))
     return students_df

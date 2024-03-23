@@ -1,9 +1,13 @@
-PREFIX rb_data: <http://ROBOPROF.org/data#>
-PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema1: <http://schema.org/>
+PREFIX dbpedia_p: <http://dbpedia.org/property/>
+PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
 
-SELECT ?resourceURL WHERE {
-  ?course a schema:Course ;
-          schema:courseCode "COURSE_CODE" ;
-          rb_data:hasResource ?resource .
-  ?resource schema:url ?resourceURL .
+SELECT DISTINCT ?additionalResources
+WHERE {
+  ?course a schema1:Course .
+  ?course dbcore:subject ?subject .
+  ?course dbpedia_p:number ?number .
+  ?course rdfs:seeAlso ?additionalResources
+  FILTER (?subject = "COMP" && ?number = "6741")
 }

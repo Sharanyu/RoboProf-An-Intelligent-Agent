@@ -1,10 +1,11 @@
 import os
+import read_config as rc
 
+config = rc.load_config()
+folder_path = rc.normalize_path(config["course_materials_path"])
 # List of courses with materials
-courses_with_materials = ["COMP6741", "SOEN6431"]
-
-course_materials = ["slides", "worksheets", "readings", "assignments", "course_outline"]
-folder_path = "data/course_materials/"
+courses_with_materials = config["courses_with_materials"]
+course_materials = config["course_materials"]
 
 
 # Function to find files within course-specific folders
@@ -20,6 +21,7 @@ def find_files_in_course_folders(folder_path):
                     full_path = os.path.join(root, file)
                     abs_path = os.path.abspath(full_path)
                     abs_path = abs_path.replace(" ", "%20")
+                    abs_path = abs_path.replace("\\", "/")
                     course_files[course].append(abs_path)
 
     return course_files

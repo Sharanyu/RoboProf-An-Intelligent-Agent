@@ -9,6 +9,12 @@ import pandas as pd
 from collections import defaultdict
 import json
 from urllib.parse import quote
+import read_config as rc
+
+config = rc.load_config()
+target_folders = config["target_folders"]
+course_materials = rc.normalize_path(config["course_materials_path"])
+spotlight_path = rc.normalize_path(config["spotlight_path"])
 
 
 def clean_text(text):
@@ -30,9 +36,9 @@ def extract_text_from_pdf(pdf_file_path):
     return cleaned_text
 
 
-def resource_listing(filepath):
-    target_folders = ["readings", "slides", "course_outline"]
-
+def resource_listing(relative_filepath):
+    filepath = os.path.abspath(relative_filepath)
+    target_folders
     resources = []
 
     for subdir, dirs, files in os.walk(filepath):
@@ -65,17 +71,7 @@ def get_spotlight_annotated_file_as_dictionary(file_content):
     return None
 
 
-def extract_course_code(path):
-    parts = path.split("/")  # Split the path into parts by '/'
-    course_code_index = (
-        parts.index("course_materials") + 1
-    )
-    return parts[course_code_index]
-
-
-filepath = resource_listing(
-    "/Users/sharanyu/My Drive/Edu/Concordia/CU MACS/IS/Project/data/course_materials/"
-)
+filepath = resource_listing(course_materials)
 dictionary = {}
 for i in filepath:
     dictionary[i] = extract_text_from_pdf(i)
@@ -103,6 +99,4 @@ for k, v in spotlight_dictionary.items():
 
 spotlight_df = pd.DataFrame(placeholder_df)
 
-spotlight_df["course_code"] = spotlight_df["lecture_content"].apply(extract_course_code)
-
-spotlight_df.to_csv("data/spotlight_data/topic_info.csv", index=False)
+spotlight_df.to_csv(spotlight_path + "/topic_info.csv", index=False)

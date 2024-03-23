@@ -1,0 +1,118 @@
+@prefix roboprof: <http://roboprof.org/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbpedia_o: <http://dbpedia.org/ontology/> .
+@prefix schema: <http://schema.org/>.
+
+# Lectures
+
+roboprof:Lecture a rdfs:Class;
+    rdfs:label "Lecture"@en;
+    rdfs:comment "Lecture of a course"@en.
+
+# properties of lecture 
+
+roboprof:Slides a rdfs:Property;
+    rdfs:domain roboprof:Lecture;
+    rdfs:range dbpedia_o:Document;
+    rdfs:label "Slides"@en;
+    rdfs:comment "Presentation displayed in a lecture."@en.
+
+roboprof:Readings a rdfs:Property;
+    rdfs:domain roboprof:Lecture;
+    rdfs:range dbpedia_o:Document;
+    rdfs:label "Readings"@en;
+    rdfs:comment "Recommended reading materials for a lecture."@en.
+
+roboprof:Worksheets a rdfs:Property;
+    rdfs:domain roboprof:Lecture;
+    rdfs:range dbpedia_o:Document;
+    rdfs:label "Worksheets"@en;
+    rdfs:comment "Worksheets provided during a lecture."@en.
+
+roboprof:containsLecture a rdfs:Property;
+    rdfs:domain schema:Course;
+    rdfs:range roboprof:Lecture;
+    rdfs:label "course_lecture_link"@en;
+    rdfs:comment "Associates a course with its lectures."@en.
+
+roboprof:numberOfCredits a rdfs:Property;
+    rdfs:domain schema:Course;
+    rdfs:range rdfs:Literal;
+    rdfs:label "NumberOfCredits"@en;
+    rdfs:comment "Number of credits for the course."@en.
+
+roboprof:Outline a rdfs:Property;
+    rdfs:domain schema:Course;
+    rdfs:range dbpedia_o:Document;
+    rdfs:label "Outline"@en;
+    rdfs:comment "Document which contains details about the course and its schedule for a specfic term"@en.
+
+# 2. Topic
+
+roboprof:Topic a rdfs:Class;
+    rdfs:label "Topic"@en;
+    rdfs:comment "A topic covered in a given lecture or course."@en.
+
+roboprof:coversTopic a rdfs:Property;
+    rdfs:domain schema:Lecture;
+    rdfs:range roboprof:Topic;
+    rdfs:label "lecture_topic_link"@en;
+    rdfs:comment "Associates a lecture with its topics."@en.
+# 3. students
+
+roboprof:Student a foaf:Person ;
+    rdfs:label "Student"@en ;
+    rdfs:comment "Information about students including their name, ID, email, completed courses, grades, and competencies."@en .
+
+# student info Properties
+
+roboprof:Id a rdfs:Property;
+    rdfs:domain roboprof:Student;
+    rdfs:range rdfs:Literal;
+    rdfs:label "ID number"@en;
+    rdfs:comment "The ID number of a student"@en.
+
+roboprof:CourseAttempt a rdfs:Class ;
+    rdfs:label "Course Attempt" ;
+    rdfs:comment "Represents a student's attempt to complete a course, including the grade and semester." .
+
+# course attempt-grade schema 
+
+roboprof:courseAttempted a rdfs:Property;
+    rdfs:domain roboprof:Student;
+    rdfs:range schema:CourseAttempt;
+    rdfs:label "Attempted_course_details"@en;
+    rdfs:comment "Relates the course to a student"@en.
+
+roboprof:course a rdfs:Property ;
+    rdfs:domain rb:CourseAttempt ;
+    rdfs:range schema:Course ;
+    rdfs:label "courseName" ;
+    rdfs:comment "Relates a course attempt to the specific course." .
+
+roboprof:Semester a rdfs:Property;
+    rdfs:domain roboprof:CourseAttempt;
+    rdfs:range rdfs:Literal;
+    rdfs:label "semester"@en;
+    rdfs:comment "Semester is the term in which a student studied/attempted the course"@en.
+
+roboprof:Grade a rdfs:Property;
+    rdfs:domain roboprof:CourseAttempt;
+    rdfs:range rdfs:Literal;
+    rdfs:label "grade"@en;
+    rdfs:comment "The grade a student achieved in an attempted course"@en.
+
+roboprof:hasCompetency a rdfs:Property ;
+    rdfs:domain rb:CourseAttempt ;
+    rdfs:range rb:Topic ;
+    rdfs:label "has competency" ;
+    rdfs:comment "Indicates a topic that the student has gained competency in through a course attempt." .
+
+# courses-university properties
+
+roboprof:courses a rdfs:Property;
+    rdfs:domain dbpedia_o:University;
+    rdfs:range schema:Course;
+    rdfs:label "courses"@en;
+    rdfs:comment "Courses of a university"@en.

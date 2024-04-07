@@ -6,6 +6,9 @@ from urllib.parse import quote
 from rdflib import BNode
 import read_config as rc
 import os
+import warnings
+
+warnings.filterwarnings("ignore")
 
 RB_SCHEMA = Namespace("http://ROBOPROF.org/class#")
 RB_DATA = Namespace("http://ROBOPROF.org/data#")
@@ -32,11 +35,12 @@ students_info = data_loader.read_students_data()
 
 courses_with_materials = config["courses_with_materials"]
 course_materials = config["course_materials"]
+folder_path = rc.normalize_path(config["course_materials_path"])
 local_path = config["local_file_path"]
 additional_URLS_COMP6741 = config["additional_URLS_COMP6741"]
 additional_URLS_SOEN6431 = config["additional_URLS_SOEN6431"]
-file_paths = get_files.categorize_files(courses_with_materials, course_materials)
-
+# file_paths = get_files.categorize_files(courses_with_materials, course_materials)
+file_paths = get_files.explore(folder_path)
 # create graph for roboprof
 
 RBP_graph = Graph()
@@ -124,66 +128,150 @@ for idx, row in data.iterrows():
                     Literal("Please check UGrad/Grad Calendar"),
                 )
             )
-    if c in courses_with_materials:
-        Lecture_graph = Graph()
-        worksheets = file_paths[c]["worksheets"]
-        readings = file_paths[c]["readings"]
-        Lectures = file_paths[c]["slides"]
-        Lectures += readings
-        Lectures += worksheets
 
-        # adding Lectures as triples to a Lecture graph then to course graph
-
-        for L in Lectures:
-            Lecture_name = L.split("/")[-1].split(".")[0][:-2]
-            Lecture_number = L.split("/")[-1].split(".")[0][-2:]
-            Lecture_URI = URIRef(RB_DATA + f"{Lecture_name}")
-            Lecture_graph.add((Lecture_URI, RDF.type, RB_SCHEMA.Lecture))
-            Lecture_graph.add((Lecture_URI, DBCORE.title, Literal(Lecture_name)))
-            Lecture_graph.add((Lecture_URI, DBPEDIA_P.number, Literal(Lecture_number)))
-            if "slides" in L:
-                Lecture_graph.add(
-                    (Lecture_URI, RB_SCHEMA.slides, URIRef(local_path + L))
-                )
-            if "readings" in L:
-                Lecture_graph.add(
-                    (Lecture_URI, RB_SCHEMA.readings, URIRef(local_path + L))
-                )
-            if "worksheets" in L:
-                Lecture_graph.add(
-                    (Lecture_URI, RB_SCHEMA.worksheets, URIRef(local_path + L))
-                )
-
-            # adding Topics as triples to a topics graph
-
-            topic_graph = Graph()
-            for index, records in spotlight_annotations.iterrows():
-                if L.split("/")[-1] == os.path.basename(records["lecture_content"]):
-                    topic_files_path = quote(
-                        local_path + records["lecture_content"], safe=":/"
+for subj, pred, obj in course_graph.triples((None, RDF.type, SCHEMA.Course)):
+    # Retrieve the course events
+    for event in course_graph.objects(subj, SCHEMA.Event):
+        course = subj.split("#")[-1]
+        if course in courses_with_materials:
+            if str(event) == "LAB":
+                LabsGraph = Graph()
+                labs = file_paths[course]["Labs"]
+                topic_graph = Graph()
+                for labk, labv in labs.items():
+                    Lab_name = labk
+                    Lab_number = Lab_name[-2:]
+                    LabURI = URIRef(RB_DATA + f"{course}_{Lab_name}")
+                    LabsGraph.add((LabURI, RDF.type, RB_SCHEMA.Laboratory))
+                    LabsGraph.add((LabURI, DBCORE.title, Literal(Lab_name)))
+                    LabsGraph.add((LabURI, DBPEDIA_P.number, Literal(Lab_number)))
+                    LabsGraph.add(
+                        (LabURI, RB_SCHEMA.hasContent, Literal(local_path + labv[0]))
                     )
-                    topicName = records["topic_URI"].replace(str(DBPEDIA_R), "")
-                    topicURI = URIRef(RB_DATA + topicName)
-                    topic_label = records["topic_name"]
-                    topic_graph.add((topicURI, RDF.type, RB_SCHEMA.Topic))
-                    topic_graph.add((topicURI, DBCORE.title, Literal(topicName)))
-                    topic_graph.add(
-                        (topicURI, DCTERMS.source, URIRef(topic_files_path))
+                    for index, records in spotlight_annotations.iterrows():
+                        if labv[0] == records["lecture_content"]:
+                            topic_files_path = quote(
+                                local_path + records["lecture_content"], safe=":/"
+                            )
+                            topicName = records["topic_URI"].replace(str(DBPEDIA_R), "")
+                            topicURI = URIRef(RB_DATA + topicName)
+                            topic_label = records["topic_name"]
+                            topic_graph.add((topicURI, RDF.type, RB_SCHEMA.Topic))
+                            topic_graph.add(
+                                (topicURI, DBCORE.title, Literal(topicName))
+                            )
+                            topic_graph.add(
+                                (topicURI, DCTERMS.source, URIRef(topic_files_path))
+                            )
+                            topic_graph.add(
+                                (topicURI, RDFS.seeAlso, URIRef(records["topic_URI"]))
+                            )
+                            topic_graph.add(
+                                (topicURI, RDFS.label, Literal(topic_label))
+                            )
+                    LabsGraph += topic_graph
+                    for topics in topic_graph.subjects(RDF.type, RB_SCHEMA.Topic):
+                        LabsGraph.add((LabURI, RB_SCHEMA.coversTopic, topics))
+                course_graph += LabsGraph
+                for laboratory in LabsGraph.subjects(RDF.type, RB_SCHEMA.Laboratory):
+                    course_graph.add((subj, RB_SCHEMA.containsLab, laboratory))
+
+for subj, pred, obj in course_graph.triples((None, RDF.type, SCHEMA.Course)):
+    # Retrieve the course events
+    for event in course_graph.objects(subj, SCHEMA.Event):
+        course = subj.split("#")[-1]
+        if course in courses_with_materials:
+            if str(event) == "LEC":
+                LectureGraph = Graph()
+                Lecs = file_paths[course]["Lectures"]
+                for leck, lecv in Lecs.items():
+                    Lecture_name = leck
+                    Lecture_number = Lecture_name[-2:]
+                    LectureURI = URIRef(RB_DATA + f"{course}_{Lecture_name}")
+                    LectureGraph.add((LectureURI, RDF.type, RB_SCHEMA.Lecture))
+                    LectureGraph.add((LectureURI, DBCORE.title, Literal(Lecture_name)))
+                    LectureGraph.add(
+                        (LectureURI, DBPEDIA_P.number, Literal(Lecture_number))
                     )
-                    topic_graph.add(
-                        (topicURI, RDFS.seeAlso, URIRef(records["topic_URI"]))
+                    LectureContent = Graph()
+                    LectureContentURI = URIRef(
+                        RB_DATA + f"{course}_{Lecture_name}_LectureContent"
                     )
-                    topic_graph.add((topicURI, RDFS.label, Literal(topic_label)))
-            Lecture_graph += topic_graph
-            for topics in topic_graph.subjects(RDF.type, RB_SCHEMA.Topic):
-                Lecture_graph.add((Lecture_URI, RB_SCHEMA.coversTopic, topics))
-        course_graph += Lecture_graph
+                    LectureContent.add(
+                        (LectureContentURI, RDF.type, RB_SCHEMA.LectureContent)
+                    )
+                    topic_graph = Graph()
 
-        for lecture in Lecture_graph.subjects(RDF.type, RB_SCHEMA.Lecture):
-            course_graph.add((course_with_code, RB_SCHEMA.containsLecture, lecture))
+                    if len(lecv["slides"]) > 0:
+                        LectureContent.add(
+                            (
+                                LectureContentURI,
+                                RB_SCHEMA.slides,
+                                Literal(local_path + lecv["slides"][0]),
+                            )
+                        )
+                        for index, records in spotlight_annotations.iterrows():
+                            if lecv["slides"][0] == records["lecture_content"]:
+                                topic_files_path = quote(
+                                    local_path + records["lecture_content"], safe=":/"
+                                )
+                                topicName = records["topic_URI"].replace(
+                                    str(DBPEDIA_R), ""
+                                )
+                                topicURI = URIRef(RB_DATA + topicName)
+                                topic_label = records["topic_name"]
+                                topic_graph.add((topicURI, RDF.type, RB_SCHEMA.Topic))
+                                topic_graph.add(
+                                    (topicURI, DBCORE.title, Literal(topicName))
+                                )
+                                topic_graph.add(
+                                    (topicURI, DCTERMS.source, URIRef(topic_files_path))
+                                )
+                                topic_graph.add(
+                                    (
+                                        topicURI,
+                                        RDFS.seeAlso,
+                                        URIRef(records["topic_URI"]),
+                                    )
+                                )
+                                topic_graph.add(
+                                    (topicURI, RDFS.label, Literal(topic_label))
+                                )
+                    else:
+                        pass
+                    if len(lecv["readings"]) > 0:
+                        LectureContent.add(
+                            (
+                                LectureContentURI,
+                                RB_SCHEMA.readings,
+                                Literal(local_path + lecv["readings"][0]),
+                            )
+                        )
+                    else:
+                        pass
+                    if len(lecv["worksheets"]) > 0:
+                        LectureContent.add(
+                            (
+                                LectureContentURI,
+                                RB_SCHEMA.worksheets,
+                                Literal(local_path + lecv["worksheets"][0]),
+                            )
+                        )
+                    else:
+                        pass
+                    LectureGraph += topic_graph
+                    for topics in topic_graph.subjects(RDF.type, RB_SCHEMA.Topic):
+                        LectureGraph.add((LectureURI, RB_SCHEMA.coversTopic, topics))
+                    LectureGraph += LectureContent
 
+                    for LC in LectureContent.subjects(
+                        RDF.type, RB_SCHEMA.LectureContent
+                    ):
+                        LectureGraph.add((subj, RB_SCHEMA.containsLectureContents, LC))
 
-# creating students graph
+            course_graph += LectureGraph
+            for lecture in LectureGraph.subjects(RDF.type, RB_SCHEMA.Lecture):
+                course_graph.add((subj, RB_SCHEMA.containsLecture, lecture))
 
 
 def create_student_graph(data, course_graph):

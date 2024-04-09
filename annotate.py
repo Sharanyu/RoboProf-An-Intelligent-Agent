@@ -1,15 +1,16 @@
-from pdfminer.high_level import extract_text
+from tika import parser
+from pathlib import Path
 import requests
-import re
-import xmltodict
-import time
-import os
-import csv
-import pandas as pd
-from collections import defaultdict
-import json
-from urllib.parse import quote
 import read_config as rc
+import xmltodict
+from collections import defaultdict
+import pandas as pd
+import os
+import spacy
+from urllib.parse import quote
+
+
+nlp = spacy.load("en_core_web_sm")
 
 config = rc.load_config()
 target_folders = config["target_folders"]
@@ -17,37 +18,33 @@ course_materials = rc.normalize_path(config["course_materials_path"])
 spotlight_path = rc.normalize_path(config["spotlight_path"])
 
 
-def clean_text(text):
-    text = re.sub(r"[^A-Za-z0-9 ]+", "", text)
-
-    words_seen = set()
-    cleaned_words = []
-    for word in text.split():
-        if word.lower() not in words_seen:
-            cleaned_words.append(word)
-            words_seen.add(word.lower())
-
-    return " ".join(cleaned_words)
-
-
-def extract_text_from_pdf(pdf_file_path):
-    text = extract_text(pdf_file_path)
-    cleaned_text = clean_text(text)
-    return cleaned_text
+def extract_text(file_path):
+    parsed = parser.from_file(file_path)["content"].splitlines()
+    text = " ".join(s.strip() for s in parsed if len(s.strip()) > 2)
+    return text
 
 
 def resource_listing(relative_filepath):
     filepath = os.path.abspath(relative_filepath)
-    target_folders
     resources = []
 
     for subdir, dirs, files in os.walk(filepath):
-        if any(subdir.endswith(target_folder) for target_folder in target_folders):
-            for file in files:
-                if file.endswith(".pdf"):
-                    resources.append(os.path.join(subdir, file))
+        for file in files:
+            if file.endswith(".pdf"):
+                resources.append(os.path.join(subdir, file))
 
     return resources
+
+
+def filter_entities_with_spacy(text, spotlight_entities):
+    doc = nlp(text)
+    named_entities = set(ent.text.lower() for ent in doc.ents)
+
+    filtered_entities = {
+        name: uri for name, uri in spotlight_entities.items() if name in named_entities
+    }
+
+    return filtered_entities
 
 
 def get_spotlight_annotated_file_as_dictionary(file_content):
@@ -74,7 +71,7 @@ def get_spotlight_annotated_file_as_dictionary(file_content):
 filepath = resource_listing(course_materials)
 dictionary = {}
 for i in filepath:
-    dictionary[i] = extract_text_from_pdf(i)
+    dictionary[i] = extract_text(i)
 
 annotated_data = {}
 
@@ -82,21 +79,26 @@ spotlight_dictionary = {}
 
 for file, text in dictionary.items():
     annotated_data = get_spotlight_annotated_file_as_dictionary(text)
-    final_dictionary = {}
+    spotlight_entities = {}
     for annotation in (
         annotated_data.get("Annotation", {}).get("Resources", {}).get("Resource", {})
     ):
         Name = annotation["@surfaceForm"].lower()
         uri = annotation["@URI"]
-        final_dictionary[Name] = uri
-    spotlight_dictionary[file] = final_dictionary
+        spotlight_entities[Name] = uri
+    filtered_entities = filter_entities_with_spacy(text, spotlight_entities)
+    spotlight_dictionary[file] = filtered_entities
+
 
 placeholder_df = defaultdict(list)
 for k, v in spotlight_dictionary.items():
+    k = quote(k)
     placeholder_df["lecture_content"] += [k] * len(v)
     placeholder_df["topic_name"] += list(v.keys())
     placeholder_df["topic_URI"] += list(v.values())
 
+
 spotlight_df = pd.DataFrame(placeholder_df)
+
 
 spotlight_df.to_csv(spotlight_path + "/topic_info.csv", index=False)

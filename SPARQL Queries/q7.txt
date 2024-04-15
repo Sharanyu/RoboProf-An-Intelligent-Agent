@@ -5,9 +5,8 @@ PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
 
 SELECT DISTINCT ?additionalResources
 WHERE {
-  ?course a schema1:Course .
+  rb_data:COMP6741 a schema1:Course .
   ?course dbcore:subject ?subject .
   ?course dbpedia_p:number ?number .
   ?course rdfs:seeAlso ?additionalResources
-  FILTER (?subject = "COMP" && ?number = "6741")
 }

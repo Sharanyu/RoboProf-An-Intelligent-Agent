@@ -3,13 +3,20 @@ PREFIX schema1: <http://schema.org/>
 PREFIX rb: <http://ROBOPROF.org/class#>
 PREFIX rb_data: <http://ROBOPROF.org/data#>
 PREFIX dbpedia_p: <http://dbpedia.org/property/>
-SELECT ?topic ?topicLabel ?dbpedia_link
-WHERE {
-  ?course a schema1:Course .
-  ?course rb:containsLecture ?lecture .
-  ?lecture dbpedia_p:number ?lectureNumber .
-  ?lecture rb:coversTopic ?topic .
-  ?topic rdfs:label ?topicLabel .
-  ?topic rdfs:seeAlso ?dbpedia_link
-  FILTER (?course = rb_data:SOEN6431)
-}
+
+SELECT DISTINCT ?course ?topic ?topicLabel
+        WHERE {{
+         ?course a schema1:Course .
+        {{
+            ?course rb:containsLab ?event .
+            BIND("Lab" AS ?eventType)
+        }}
+        UNION
+        {{
+            ?course rb:containsLecture ?event .
+            BIND("Lecture" AS ?eventType)
+        }}
+        ?event rb:coversTopic ?topic .
+        ?topic rdfs:label ?topicLabel .
+    	FILTER (?course = rb_data:SOEN6431)
+        }}

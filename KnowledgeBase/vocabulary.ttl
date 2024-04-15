@@ -10,7 +10,7 @@ roboprof:Lecture a rdfs:Class;
     rdfs:label "Lecture"@en;
     rdfs:comment "Lecture of a course"@en.
 
-# properties of lecture 
+# properties of lecture
 
 roboprof:Slides a rdfs:Property;
     rdfs:domain roboprof:Lecture;
@@ -59,6 +59,7 @@ roboprof:coversTopic a rdfs:Property;
     rdfs:range roboprof:Topic;
     rdfs:label "lecture_topic_link"@en;
     rdfs:comment "Associates a lecture with its topics."@en.
+
 # 3. students
 
 roboprof:Student a foaf:Person ;

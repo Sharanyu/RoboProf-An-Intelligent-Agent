@@ -7,6 +7,7 @@ from rdflib import BNode
 import read_config as rc
 import os
 import warnings
+import chatBot
 
 warnings.filterwarnings("ignore")
 
@@ -25,6 +26,8 @@ DCTERMS = Namespace("http://purl.org/dc/terms/")
 
 config = rc.load_config()
 
+fuseki_path = config["fuseki_path"]
+KB = config["KB"]
 # initalize data
 
 data = data_loader.merge_data()
@@ -39,8 +42,10 @@ folder_path = rc.normalize_path(config["course_materials_path"])
 local_path = config["local_file_path"]
 additional_URLS_COMP6741 = config["additional_URLS_COMP6741"]
 additional_URLS_SOEN6431 = config["additional_URLS_SOEN6431"]
+
 # file_paths = get_files.categorize_files(courses_with_materials, course_materials)
 file_paths = get_files.explore(folder_path)
+
 # create graph for roboprof
 
 RBP_graph = Graph()
@@ -141,6 +146,7 @@ for subj, pred, obj in course_graph.triples((None, RDF.type, SCHEMA.Course)):
                 for labk, labv in labs.items():
                     Lab_name = labk
                     Lab_number = Lab_name[-2:]
+                    # LabURI = URIRef(RB_DATA + f"{Lab_name}")
                     LabURI = URIRef(RB_DATA + f"{course}_{Lab_name}")
                     LabsGraph.add((LabURI, RDF.type, RB_SCHEMA.Laboratory))
                     LabsGraph.add((LabURI, DBCORE.title, Literal(Lab_name)))
@@ -187,6 +193,7 @@ for subj, pred, obj in course_graph.triples((None, RDF.type, SCHEMA.Course)):
                 for leck, lecv in Lecs.items():
                     Lecture_name = leck
                     Lecture_number = Lecture_name[-2:]
+                    # LectureURI = URIRef(RB_DATA + f"{Lecture_name}")
                     LectureURI = URIRef(RB_DATA + f"{course}_{Lecture_name}")
                     LectureGraph.add((LectureURI, RDF.type, RB_SCHEMA.Lecture))
                     LectureGraph.add((LectureURI, DBCORE.title, Literal(Lecture_name)))
@@ -247,6 +254,33 @@ for subj, pred, obj in course_graph.triples((None, RDF.type, SCHEMA.Course)):
                                 Literal(local_path + lecv["readings"][0]),
                             )
                         )
+                        for index, records in spotlight_annotations.iterrows():
+                            if lecv["readings"][0] == records["lecture_content"]:
+                                topic_files_path = quote(
+                                    local_path + records["lecture_content"], safe=":/"
+                                )
+                                topicName = records["topic_URI"].replace(
+                                    str(DBPEDIA_R), ""
+                                )
+                                topicURI = URIRef(RB_DATA + topicName)
+                                topic_label = records["topic_name"]
+                                topic_graph.add((topicURI, RDF.type, RB_SCHEMA.Topic))
+                                topic_graph.add(
+                                    (topicURI, DBCORE.title, Literal(topicName))
+                                )
+                                topic_graph.add(
+                                    (topicURI, DCTERMS.source, URIRef(topic_files_path))
+                                )
+                                topic_graph.add(
+                                    (
+                                        topicURI,
+                                        RDFS.seeAlso,
+                                        URIRef(records["topic_URI"]),
+                                    )
+                                )
+                                topic_graph.add(
+                                    (topicURI, RDFS.label, Literal(topic_label))
+                                )
                     else:
                         pass
                     if len(lecv["worksheets"]) > 0:
@@ -257,6 +291,33 @@ for subj, pred, obj in course_graph.triples((None, RDF.type, SCHEMA.Course)):
                                 Literal(local_path + lecv["worksheets"][0]),
                             )
                         )
+                        for index, records in spotlight_annotations.iterrows():
+                            if lecv["worksheets"][0] == records["lecture_content"]:
+                                topic_files_path = quote(
+                                    local_path + records["lecture_content"], safe=":/"
+                                )
+                                topicName = records["topic_URI"].replace(
+                                    str(DBPEDIA_R), ""
+                                )
+                                topicURI = URIRef(RB_DATA + topicName)
+                                topic_label = records["topic_name"]
+                                topic_graph.add((topicURI, RDF.type, RB_SCHEMA.Topic))
+                                topic_graph.add(
+                                    (topicURI, DBCORE.title, Literal(topicName))
+                                )
+                                topic_graph.add(
+                                    (topicURI, DCTERMS.source, URIRef(topic_files_path))
+                                )
+                                topic_graph.add(
+                                    (
+                                        topicURI,
+                                        RDFS.seeAlso,
+                                        URIRef(records["topic_URI"]),
+                                    )
+                                )
+                                topic_graph.add(
+                                    (topicURI, RDFS.label, Literal(topic_label))
+                                )
                     else:
                         pass
                     LectureGraph += topic_graph
@@ -328,3 +389,5 @@ for s, p, c in course_graph.triples((None, RDF.type, SCHEMA.Course)):
 
 RBP_graph.serialize("KnowledgeBase/rbpgraph.ttl", format="ttl")
 RBP_graph.serialize("KnowledgeBase/rbpgraph.nt", format="nt")
+
+# setup_fuseki.update_data(fuseki_path, KB)

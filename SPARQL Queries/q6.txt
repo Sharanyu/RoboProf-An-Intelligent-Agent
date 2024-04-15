@@ -4,11 +4,10 @@ PREFIX rb_data: <http://ROBOPROF.org/data#>
 PREFIX dbpedia_p: <http://dbpedia.org/property/>
 PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
 
-SELECT ?courseCode ?subject ?credits
+SELECT ?subject ?courseCode  ?credits
 WHERE {
-  ?course a schema1:Course ;
+  rb_data:COMP6741 a schema1:Course ;
   		  dbcore:subject ?subject ;
           dbpedia_p:number ?courseCode ;
           rb:numberOfCredits ?credits .
-  FILTER (?subject = "SOEN" && ?courseCode = "6431")
 }

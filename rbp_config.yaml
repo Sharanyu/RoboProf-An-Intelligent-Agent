@@ -5,7 +5,9 @@ students_data: data/students.csv
 spotlight_path: data/spotlight_data/
 local_file_path: file://
 courses_with_materials: [SOEN6431,COMP6741]
-course_materials: [slides, worksheets, readings, assignments, course_outline]
-target_folders: [readings, slides, course_outline]
+course_materials: [slides, worksheets, readings, assignments, course_outline, Labs]
+target_folders: [readings, slides, course_outline, worksheets,Labs]
 additional_URLS_COMP6741: [https://concordiauniversity.on.worldcat.org/oclc/960211579, https://concordiauniversity.on.worldcat.org/oclc/801812987, https://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/, https://www.w3.org/TR/rdf11-primer/, https://concordiauniversity.on.worldcat.org/oclc/897466408, https://concordiauniversity.on.worldcat.org/oclc/314121652, https://www-nlp.stanford.edu/IR-book/, https://concordiauniversity.on.worldcat.org/oclc/954339855]
 additional_URLS_SOEN6431: [https://martinfowler.com/articles/continuousIntegration.html, https://f-droid.org/en/packages/de.dennisguse.opentracks/, https://www.atlassian.com/git/tutorials/what-is-version-control#:~:text=Version%20control%2C%20also%20known%20as,to%20source%20code%20over%20time.]
+fuseki_path: /opt/homebrew/Cellar/fuseki/5.0.0/bin/fuseki-server
+KB: KnowledgeBase/rbpgraph.ttl

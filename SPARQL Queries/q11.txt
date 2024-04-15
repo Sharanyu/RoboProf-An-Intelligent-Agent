@@ -8,11 +8,9 @@ WHERE {
   ?student rdf:type foaf:Person ;
            foaf:givenName ?firstName ;  
            foaf:familyName ?lastname .
-
   ?attempt rb:course ?course ;
            rb:Grade ?grade ;
   		   rb:Semester ?sem .
-           
   ?student rb:courseAttempted ?attempt .
     FILTER (?firstName = "Sharanyu" && ?lastname = "Pillai" && ?course = rb_data:COMP6741)
 }

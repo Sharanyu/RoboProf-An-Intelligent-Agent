@@ -1,0 +1,484 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: about_course
+  examples: |
+    - What is [COMP6741](course) about?
+    - What is [COMP474](course) about
+    - What is [SOEN6431](course) about
+    - What is [__oov__](course) about
+    - Please Describe [COMP6741](course)
+    - Describe [INSE441](course)
+    - Describe [__oov__](course)
+    - Can you tell me about [COMP6741](course)?
+    - Can you tell me about [__oov__](course) ?
+    - What can you tell me about [COMP3111](course)?
+    - I'd like to know more about [SOEN6431](course).
+    - Give me details about [MATH203](course).
+    - I'm interested in learning about [ENGR233](course).
+    - What subjects does [BIOL101](course) cover?
+    - What does the [CHEM212](course) course involve?
+    - Explain what [PSYC331](course) is about.
+    - What topics are included in [COMP348](course)?
+    - Overview of [HIST205](course) please.
+    - What content does [ANTH202](course) deal with?
+    - Brief me about [FINA200](course).
+    - What are the main points of [MGCR331](course)?
+    - Insight into [STAT285](course) course content?
+    - What material does [COMP6721](course) cover?
+    - Overview of what [PHYS204](course) teaches?
+    - What is the focus of [ECON1012](course)?
+    - Elaborate on what is taught in [PHIL2001](course).
+    - What does [SOEN4871](course) focus on?
+    - Provide an outline of [COMP474](course).
+    - Tell me the scope of [STAT2003](course).
+  
+- intent: topics_in_course_event
+  examples: |
+    - Which topics are covered in lecture [05](lecture_number) of [COMP6741](course) ?
+    - Which topics are covered in [lecture](event_type) [__oov__](lecture_number) of [SOEN6431](course) ?
+    - What were the main topics discussed in [Lecture](event_type) [2](lecture_number) of [COMP3111](course)?
+    - Can you tell me what was covered in [Lecture](event_type) [10](lecture_number) of [SOEN6431](course)?
+    - What did they go over in [Lecture](event_type) [6](lecture_number) of [MATH203](course)?
+    - Detail the subjects addressed in [Lecture](event_type) [12](lecture_number) of [ENGR233](course)?
+    - What are the key topics in [Lecture](event_type) [7](lecture_number) of [BIOL101](course)?
+    - Please list topics from [Lecture](event_type) [9](lecture_number) in [CHEM212](course).
+    - Which subjects were discussed in [Lecture](event_type) [13](lecture_number) of [PSYC331](course)?
+    - What topics were included in [Lecture](event_type) [14](lecture_number) of [COMP348](course)?
+    - Outline the content of [Lecture](event_type) [15](lecture_number) in [HIST205](course).
+    - Can you detail the lecture topics from [Lecture](event_type) [16](lecture_number) of [ANTH202](course)?
+    - What themes were explored during [Lecture](event_type) [17](lecture_number) in [FINA200](course)?
+    - Which areas were covered in [Lecture](event_type) [18](lecture_number) of [MGCR331](course)?
+    - List all topics from [Lecture](event_type) [19](lecture_number) in [STAT285](course).
+    - What was taught in [Lecture](event_type) [20](lecture_number) of [COMP6721](course)?
+    - Describe the discussion points from [Lecture](event_type) [21](lecture_number) in [PHYS204](course)?
+    - Which topics are covered in [lecture](event_type) [__oov__](lecture_number) of [COMP 445](course)
+    - Which topics are covered in [Lecture](event_type) [11](lecture_number) of [__oov__](course) ?
+    - Which topics are covered in lecture [05](lecture_number) of [COMP6741](course) ?
+    - Which topics are covered in [lecture](event_type) [__oov__](lecture_number) of [SOEN6431](course) ?
+    - What were the main topics discussed in [Lecture](event_type) [2](lecture_number) of [COMP3111](course)?
+    - Can you tell me what was covered in [Lecture](event_type) [10](lecture_number) of [SOEN6431](course)?
+    - What did they go over in [Lecture](event_type) [6](lecture_number) of [MATH203](course)?
+    - Detail the subjects addressed in [Lecture](event_type) [12](lecture_number) of [ENGR233](course)?
+    - What are the key topics in [Lecture](event_type) [7](lecture_number) of [BIOL101](course)?
+    - Please list topics from [Lecture](event_type) [9](lecture_number) in [CHEM212](course).
+    - Which subjects were discussed in [Lecture](event_type) [13](lecture_number) of [PSYC331](course)?
+    - What topics were included in [Lecture](event_type) [14](lecture_number) of [COMP348](course)?
+    - Outline the content of [Lecture](event_type) [15](lecture_number) in [HIST205](course).
+    - Can you detail the lecture topics from [Lecture](event_type) [16](lecture_number) of [ANTH202](course)?
+    - What themes were explored during [Lecture](event_type) [17](lecture_number) in [FINA200](course)?
+    - Which areas were covered in [Lecture](event_type) [18](lecture_number) of [MGCR331](course)?
+    - List all topics from [Lecture](event_type) [19](lecture_number) in [STAT285](course).
+    - What was taught in [Lecture](event_type) [20](lecture_number) of [COMP6721](course)?
+    - Describe the discussion points from [Lecture](event_type) [21](lecture_number) in [PHYS204](course)?
+    - Which topics are covered in [lecture](event_type) [__oov__](lecture_number) of [COMP 445](course)
+    - Which topics are covered in [Lecture](event_type) [11](lecture_number) of [__oov__](course) ?
+    - Which topics were covered in [lab](event_type) [3](lecture_number) of [COMP6741](course) ?
+    - Which topics were covered in [lab](event_type) [3](lecture_number) of [COMP6741](course) ?
+    - What was discussed in [Lab](event_type) [5](lecture_number) of [ENGR233](course)?
+    - List the key topics from [Lab](event_type) [3](lecture_number) of [PHYS204](course).
+    - Can you tell me what topics are explored in [Lab](event_type) [6](lecture_number) of [CHEM101](course)?
+    - Detail the subjects covered in [Lab](event_type) [9](lecture_number) of [MATH300](course).
+    - What topics are taught in [Lab](event_type) [10](lecture_number) of [SOEN341](course)?
+    - Which subjects are handled during [Lab](event_type) [7](lecture_number) of [BIOL150](course)?
+    - Show the topics covered in [Lab](event_type) [12](lecture_number) of [STAT200](course).
+    - Describe the experiments in [Lab](event_type) [1](lecture_number) of [MECH375](course).
+    - What topics were demonstrated in [Lab](event_type) [8](lecture_number) of [COMP228](course)?
+    - Outline the practical skills developed in [Lab](event_type) [5](lecture_number) of [ELEC275](course).
+    - What learning outcomes are there in [Lab](event_type) [13](lecture_number) of [CIVI201](course)?
+    - What are the experimental topics in [Lab](event_type) [3](lecture_number) of [AERO360](course)?
+    - Can I know the topics discussed in [Lab](event_type) [4](lecture_number) of [COMP346](course)?
+    - Please provide the topics covered in [Lab](event_type) [6](lecture_number) of [ENGR202](course).
+    - What are the core topics in [Lab](event_type) [2](lecture_number) of [BIOE400](course)?
+    - Detail the study areas in [Lab](event_type) [14](lecture_number) of [NUTR315](course).
+    - Which topics are demonstrated in [Lab](event_type) [15](lecture_number) of [PSYC410](course)?
+    - List all topics in [Lab](event_type) [11](lecture_number) of [ARCH250](course).
+    - Show topics covered during [Lab](event_type) [9](lecture_number) of [INDS350](course).
+    - What topics were explored in [Lab](event_type) [17](lecture_number) of [GEOL450](course)?
+
+- intent: course_event_coverage_topic
+  examples: |
+    - Which course events cover [topic](topic)?
+    - Can you show which course events discuss [robotics](topic)?
+    - I need to find courses that include [machine learning](topic) in their events.
+    - Do any course events focus on [computer vision](topic)?
+    - Which sessions go into [natural language processing](topic)?
+    - Are there any seminars on [quantum computing](topic)?
+    - Find courses that have events discussing [blockchain technology](topic).
+    - Show me where [cybersecurity](topic) is covered in course events.
+    - I'm looking for course events that deal with [big data](topic).
+    - Which course events cover [__oov__](topic)?
+    - Can you show which course events discuss [robotics](topic)?
+    - I need to find courses that include [machine learning](topic) in their events.
+    - Do any course events focus on [computer vision](topic)?
+    - Which sessions go into [natural language processing](topic)?
+    - Are there any seminars on [quantum computing](topic)?
+    - Find courses that have events discussing [blockchain technology](topic).
+    - Show me where [cybersecurity](topic) is covered in course events.
+    - I'm looking for course events that deal with [big data](topic).
+    - What are the course events that include lectures on [cognitive science](topic)?
+    - What are the course events that include lectures on [cognitive science](topic)?
+    - Can you list the labs that explore [software engineering](topic)?
+    - Which lectures include information about [artificial intelligence](topic)?
+    - Are there any course events that teach [genomics](topic)?
+    - Which courses cover [ethical hacking](topic) in their curriculum?
+    - Display all the course events related to [renewable energy](topic).
+    - I'm interested in course events that discuss [sustainable development](topic).
+    - What are the events in courses that cover [cloud computing](topic)?
+    - Show events talking about [Internet of Things](topic).
+    - Tell me about courses that cover [financial technology](topic) in their events.
+
+- intent: list_cu_course
+  examples: |
+    - Which courses are provided by Concordia univeristy? 
+    - give me a list of Courses provided
+    - list all courses
+    - Can you list all the available courses?
+    - Show me a complete list of courses offered.
+    - What are all the courses you provide?
+    - Display every course available.
+    - Provide a catalog of all courses.
+    - Which courses can I enroll in?
+    - I want to see all courses offered by the university.
+    - Give me a comprehensive list of all academic courses.
+    - What courses does Concordia University offer?
+    - List every course available at Concordia University.
+    - Can you show me all the courses offered at Concordia?
+    - What courses are available at Concordia for this semester?
+    - Show me all Concordia courses.
+    - I'd like to see all courses provided by Concordia University.
+    - List the courses available from Concordia.
+
+- intent: list_cu_course_subject_wise
+  examples: |
+    - Which courses are provided by Concordia univeristy for [COMP](subject)?
+    - give me a list of Courses provided for [COMP](subject)
+    - list all courses for [COMP](subject)
+    - What [COMP](subject) courses does Concordia University offer?
+    - Can you show me all [COMP](subject) courses available at Concordia?
+    - Display Concordia University's course offerings in [COMP](subject).
+    - I need information on Concordia University courses under [COMP](subject).
+    - What are the available [COMP](subject) courses at Concordia University?
+    - Show courses for the [COMP](subject) program at Concordia.
+    - List the Concordia [COMP](subject) courses for this academic year.
+    - What [COMP](subject) academic courses does Concordia provide?
+    - Provide a catalog of [COMP](subject) courses at Concordia University.
+    - Could you list all the Concordia courses that include [COMP](subject)?
+  
+- intent: course_credits
+  examples: |
+    - how much credits is [SOEN6431](course) worth?
+    - What is the credit count for [COMP474](course)?
+    - Can you tell me the number of credits for [BIOL101](course)?
+    - How many credits do I earn from [MATH203](course)?
+    - What's the credit value of [ENGR233](course)?
+    - Find out how many credits [CHEM212](course) offers.
+    - Please let me know the credits for [PSYC331](course).
+    - how much credits is [SOEN6431](course) worth?
+    - What is the credit count for [__oov__](course)?
+    - Can you tell me the number of credits for [BIOL101](course)?
+    - How many credits do I earn from [MATH203](course)?
+    - What's the credit value of [__oov__](course)?
+    - Tell me the credits associated with [COMP348](course).
+    - How many credits is the course [HIST205](course) worth?
+    - What are the total credits for [PHYS204](course)?
+    - Credits for [ANTH202](course): how many?
+    - How many credits are in [SOEN487](course)?
+    - I need to know the credit hours for [COMP6721](course).
+    - Could you verify the credits for [STAT285](course)?
+    - What number of credits is offered in [MGCR331](course)?
+    - Detail the credit points for [FINA200](course).
+
+- intent: additional_resources
+  examples: |
+    - are there any additional resources for [COMP6741](course) ?
+    - Can you provide any additional resources for [COMP3111](course)?
+    - What additional resources are available for [SOEN6431](course)?
+    - I'm looking for additional resources for [MATH203](course), can you help?
+    - Are there any supplementary additional resources for [ENGR233](course)?
+    - Could you list the additional resources offered with [BIOL101](course)?
+    - Find any additional resources related to [CHEM212](course), please.
+    - Do you have information on additional resources for [PSYC331](course)?
+    - Where can I find additional resources for studying [HIST205](course)?
+    - What are the available additional resources for [COMP348](course)?
+    - are there any additional resources for [__oov__](course) ?
+    - Can you provide any additional resources for [COMP3111](course)?
+    - What additional resources are available for [__oov__](course)?
+    - Show me additional resources that come with [ANTH202](course).
+    - Any extra additional resources for [FINA200](course) that I should know about?
+    - Are there any online additional resources or tools for [MGCR331](course)?
+    - Could you check for any additional resources on [STAT285](course)?
+    - How can I access additional resources for [COMP6721](course)?
+    - What additional resources do you recommend for [PHYS204](course)?
+
+- intent: reading_materials_for_topic
+  examples: |
+    - List the reading materials for [AI](topic) in [COMP6741](course).
+    - List the reading materials for [__oov__](topic) in [COMP6741](course).
+    - Can you show me the reading materials for [__oov__](topic) in the course [COMP6741](course)?
+    - What are the recommended reading materials for [machine learning](topic) in [COMP6752](course)?
+    - Provide the reading study materials for [neural networks](topic) available in [COMP6731](course).
+    - I need all reading resources for [deep learning](topic) offered in [COMP6721](course).
+    - Fetch the reading textbooks for [data science](topic) that are part of [STAT5001](course).
+    - Could you list the reading articles for [robotics](topic) in [ENGR4523](course)?
+    - List the reading materials for [AI](topic) in [COMP6741](course).
+    - List the reading materials for [__oov__](topic) in [COMP6741](course).
+    - Can you show me the reading materials for [__oov__](topic) in the course [COMP6741](course)?
+    - Show reading resources about [computational theory](topic) for [COMP6743](course).
+    - Find reading materials for [natural language processing](topic) in [COMP6791](course).
+    - What reading materials cover [cryptography](topic) in [SEC3004](course)?
+    - I'm looking for the reading list for [big data analytics](topic) in [DATA6901](course).
+    - Can I have the reading textbook list for [__oov__](topic) in [DATA6901](course)?
+    - Show the required reading materials for [blockchain technology](topic) in [COMP6452](course).
+    - List all essential reading for [quantum computing](topic) in [PHYS4501](course).
+    - What are the key reading resources for [organic chemistry](topic) in [CHEM3102](course)?
+    - Can you provide the comprehensive reading list for [medieval history](topic) in [HIST2011](course)?
+    - Fetch the suggested reading materials for [software engineering](topic) in [SOEN691](course).
+    - Provide the latest reading texts for [environmental science](topic) in [ENV3001](course).
+    - I need the updated reading articles for [international relations](topic) in [POLI4001](course).
+    - Could you find the advanced reading materials for [theoretical physics](topic) in [PHYS7002](course)?
+    - Show me the introductory reading materials for [macroeconomics](topic) in [ECON1012](course).
+    - List the core reading texts for [genetics](topic) in [BIOL5501](course).
+
+- intent: obtaining_topics_after_passing_course
+  examples: |
+    - what are the topics I will learn in COMP6741(course) ?
+    - What topics will be covered in [COMP6741](course)?
+    - Can you tell me what I'll learn in [SOEN6431](course)?
+    - What will I have learned by the end of [MATH203](course)?
+    - List the topics taught in [ENGR233](course).
+    - What subjects are included in the syllabus of [BIOL101](course)?
+    - What are the main topics in [CHEM212](course) by the course end?
+    - After finishing [PSYC331](course), what topics should I know?
+    - What knowledge areas does [COMP348](course) cover?
+    - What educational content is in [HIST205](course)?
+    - What themes are explored in [ANTH202](course) upon completion?
+    - Upon completing [FINA200](course), what topics will I have studied?
+    - What subjects are covered in [MGCR331](course)?
+    - Outline the key learning points in [STAT285](course).
+    - What are the learning outcomes of [COMP6721](course)?
+    - What topics do I master after [PHYS204](course)?
+    - After passing [ECON1012](course), what will I have learned?
+    - Tell me the topics included in [COMP3111](course) by the end of the semester.
+    - What are the core subjects in [SOEN4871](course) that I will learn?
+    - Detail the topics I will have understood in [STAT2003](course) after passing.
+    - What topics does [PHIL2001](course) cover throughout the course?
+
+- intent: student_course_performance
+  examples: |
+    - How did [Sharanyu](firstname) [Pillai](lastname) perform in [COMP6741](course) ?
+    - How did [Edgar](firstname) [Sanchez](lastname) perform in [SOEN6431](course)?
+    - What was the performance of [Sushant](firstname) [Sharma](lastname) in [COMP3111](course)?
+    - Can you show me how [Rochelle](firstname) [Johnson](lastname) did in [STAT2003](course)?
+    - Did [Maja](firstname) [Nicholson](lastname) pass [BIOL101](course)?
+    - What grade did [Brittany](firstname) [Sath](lastname) achieve in [MATH203](course)?
+    - How was [Joshua](firstname) [Lonaker](lastname)'s outcome in [ENGR233](course)?
+    - Tell me about [Preston](firstname) [Suarez](lastname)'s results in [PHYS204](course)?
+    - What scores did [Natasha](firstname) [Yarusso](lastname) get in [CHEM212](course)?
+    - How did [Maa'iz](firstname) [al-Dia](lastname) fare in [ECON1012](course)?
+    - Did [Sharanyu](firstname) [Pillai](lastname) excel in [COMP6721](course)?
+    - What was [Edgar](firstname) [Sanchez](lastname)'s performance like in [PSYC331](course)?
+    - How did [Sushant](firstname) [Sharma](lastname) score in [HIST205](course)?
+    - Can you detail [Rochelle](firstname) [Johnson](lastname)'s grades in [PHIL2001](course)?
+    - What was the course outcome for [Maja](firstname) [Nicholson](lastname) in [FINA200](course)?
+    - How did [Brittany](firstname) [Sath](lastname) perform in [MGCR331](course)?
+    - Did [Joshua](firstname) [Lonaker](lastname) pass [ANTH202](course) with a good grade?
+    - Show [Preston](firstname) [Suarez](lastname)'s course report for [COMP348](course).
+    - Report the exam results of [Natasha](firstname) [Yarusso](lastname) in [COMP474](course).
+    - How successful was [Maa'iz](firstname) [al-Dia](lastname) in [SOEN4871](course)?
+    - Describe [Sharanyu](firstname) [Pillai](lastname)'s academic performance in [STAT285](course)?
+
+- intent: course_performance
+  examples: |
+    - How did students perform in COMP6741(course) ?
+    - How did students perform in SOEN6431(course) ?
+    - What is the performance of students in SOEN6431(course) ?
+    - Can you tell me how students did in [COMP3111](course)?
+    - What was the average performance in [STAT2003](course)?
+    - How well did the class do in [MATH203](course)?
+    - Show me the performance overview of students in [ENGR233](course).
+    - What are the grade distributions for [BIOL101](course)?
+    - How have students historically performed in [CHEM212](course)?
+    - Provide a summary of student results in [PSYC331](course).
+    - What's the success rate in [COMP348](course)?
+    - Review the academic outcomes in [HIST205](course).
+    - Assess the performance levels in [ANTH202](course).
+    - Detail the student performance metrics for [FINA200](course).
+    - How did learners fare in [MGCR331](course)?
+    - What are the pass rates for [STAT285](course)?
+    - Could you provide performance insights for [COMP6721](course)?
+    - What is the overall student performance in [PHYS204](course)?
+    - How successful were students in [ECON1012](course)?
+    - What percentage of students passed [PHIL2001](course)?
+    - Give an analysis of course results in [SOEN4871](course).
+    - What is the failure rate in [COMP474](course)?
+    - How did the cohort perform in [STAT2003](course) last semester?
+
+- intent: students_transcript
+  examples: |
+    - Can I get the transcript for [Edgar](firstname) [Sanchez](lastname)?
+    - I need the academic record for [Sushant](firstname) [Sharma](lastname).
+    - Show transcript for [Rochelle](firstname) [Johnson](lastname), please.
+    - Retrieve the university transcript of [Maja](firstname) [Nicholson](lastname).
+    - Provide the detailed transcript for [Brittany](firstname) [Sath](lastname).
+    - Download transcript for [Joshua](firstname) [Lonaker](lastname).
+    - Could you fetch the transcript details for [Preston](firstname) [Suarez](lastname)?
+    - Email me the transcript of [Natasha](firstname) [Yarusso](lastname).
+    - Get the academic transcript for [Maa'iz](firstname) [al-Dia](lastname).
+    - Could I see the transcript for [Edgar](firstname) [Sanchez](lastname)?
+    - Please pull up the transcript for [Sushant](firstname) [Sharma](lastname).
+    - Access the school transcript for [Rochelle](firstname) [Johnson](lastname).
+    - How can I obtain the transcript of [Maja](firstname) [Nicholson](lastname)?
+    - Send me the transcript file for [Brittany](firstname) [Sath](lastname).
+    - Can you show the transcript for [Joshua](firstname) [Lonaker](lastname)?
+    - What grades did [Preston](firstname) [Suarez](lastname) get? Need the transcript.
+    - Can you provide the latest transcript for [Natasha](firstname) [Yarusso](lastname)?
+    - Display the transcript records for [Maa'iz](firstname) [al-Dia](lastname).
+    - Please generate the transcript for [Edgar](firstname) [Sanchez](lastname).
+    - How do I find the transcript for [Sushant](firstname) [Sharma](lastname)?
+    - give me Sharanyu(firstname) Pillai(lastname) Transcript
+    - Please provide transcript of Sharanyu(firstname) Pillai(lastname)
+    - Can I get the transcript for [Edgar](firstname) [Sanchez](lastname)?
+    - Can I get the transcript for [Edgar](firstname) [Sanchez](lastname)?
+    - I need the academic record for [Sushant](firstname) [Sharma](lastname).
+
+- intent: course_lecture_contents
+  examples: |
+    - list some contents of [COMP6741](course) for lecture [04](lecture_number)
+    - list some contents of [SOEN6431](course) for lecture [3](lecture_number)
+    - what are the contents to refer for lecture [3](lecture_number) in [SOEN6431](course)
+    - Can you show the materials for lecture [02](lecture_number) from [COMP3111](course)?
+    - I need the slides for lecture [15](lecture_number) in [ENGR2020](course).
+    - Provide the reading materials for lecture [07](lecture_number) of [BIOL1114](course).
+    - Display all resources available for lecture [12](lecture_number) in [MATH3301](course).
+    - Retrieve presentation slides for [PHYS1012](course) lecture [09](lecture_number).
+    - What resources are available for lecture [05](lecture_number) in [CHEM1004](course)?
+    - Could you list the worksheets for lecture [10](lecture_number) of [STAT2003](course)?
+    - Fetch the supplementary materials for lecture [06](lecture_number) in [SOEN4871](course).
+    - Show the video links for [HIST3002](course) lecture [08](lecture_number).
+    - What are the key notes for lecture [11](lecture_number) in [COMP4741](course)?
+    - Can you provide the study guides for lecture [14](lecture_number) in [PHIL2021](course)?
+    - List all multimedia content available for lecture [03](lecture_number) of [MEDIA1010](course).
+    - What lecture notes are available for lecture [20](lecture_number) in [ECON3012](course)?
+    - Show me the quizzes for lecture [04](lecture_number) from [PSYCH1504](course).
+    - Retrieve the course materials for lecture [13](lecture_number) in [ARCH1310](course).
+    - I need the tutorial resources for lecture [08](lecture_number) of [CSYS3020](course).
+    - What are the discussion topics for lecture [16](lecture_number) in [POLI2001](course)?
+    - Can I get the lab experiments for lecture [09](lecture_number) in [CHEM2041](course)?
+    - Display the guest lecture recordings for lecture [07](lecture_number) of [BUSM4001](course).
+    - Fetch the case studies for lecture [12](lecture_number) in [FINC3003](course)?
+
+- intent: course_content_for_topics
+  examples: |
+    - give me some contents for [sparql](topic) in [COMP6741](course)
+    - what contents can i refer for [deep learning](topic) in [COMP6741](course) ?
+    - give me some contents for [data](topic) in [SOEN6431](course)
+    - Can you provide resources on [sparql](topic) for the [COMP6741](course) course?
+    - Show all materials related to [deep learning](topic) in [COMP6741](course).
+    - I need detailed study materials for [data](topic) within [SOEN6431](course).
+    - List all videos covering [sparql](topic) in [COMP6741](course).
+    - Are there any lectures on [deep learning](topic) in [COMP6741](course)?
+    - What reading materials are available for [data](topic) in [SOEN6431](course)?
+    - Could you find the slides about [sparql](topic) in [COMP6741](course)?
+    - Show me the workshop content for [deep learning](topic) in [COMP6741](course).
+    - Find all presentations on [data](topic) in [SOEN6431](course).
+    - What are the latest updates in [sparql](topic) for [COMP6741](course)?
+    - What study guides are available for [machine learning](topic) in [COMP3111](course)?
+    - Can you list the tutorials for [data structures](topic) in [SOEN4871](course)?
+    - Show any available webinars on [quantum computing](topic) in [PHYS1012](course).
+    - Provide me with articles about [blockchain](topic) in [COMP6741](course).
+    - I'm looking for videos on [artificial intelligence](topic) in [COMP348](course).
+    - What workshops are available for [cybersecurity](topic) in [COMP4741](course)?
+    - Find me resources for [software testing](topic) in [COMP6721](course).
+    - Are there any online courses about [cloud computing](topic) in [ENGR233](course)?
+    - What are the recommended readings for [ethical hacking](topic) in [SEC3004](course)?
+    - Can you show lecture recordings on [statistical data analysis](topic) in [STAT2003](course)?

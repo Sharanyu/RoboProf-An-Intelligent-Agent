@@ -1,0 +1,121 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about_course
+  - topics_in_course_event
+  - course_event_coverage_topic
+  - list_cu_course
+  - list_cu_course_subject_wise
+  - course_credits
+  - additional_resources
+  - reading_materials_for_topic
+  - obtaining_topics_after_passing_course
+  - student_course_performance
+  - course_performance
+  - students_transcript
+  - course_lecture_contents
+  - course_content_for_topics
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 6000000 #100mins
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_course_info
+  - action_topics_in_course_event
+  - action_course_event_coverage_topic
+  - action_list_cu_course
+  - action_list_cu_course_from_subject
+  - action_course_credits
+  - action_additional_resources
+  - action_list_reading_materials
+  - action_topics_obtained_after_course
+  - action_student_course_performance
+  - action_course_performance
+  - action_students_transcript
+  - action_course_lecture_contents
+  - action_get_course_content_for_topics
+
+entities:
+  - course
+  - topic
+  - student
+  - firstname
+  - lastname
+  - lecture_number
+  - subject
+  - event
+  - event_type
+
+slots:
+  course:
+    type: any
+    mappings:
+      - type: from_entity
+        entity: course
+  firstname:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: firstname
+  lastname:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: lastname
+  student:
+    type: any
+    mappings:
+      - type: from_entity
+        entity: student
+  subject:
+    type: any
+    mappings:
+      - type: from_entity
+        entity: subject
+  topic:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: topic
+  lecture_number:
+    type: any
+    mappings:
+      - type: from_entity
+        entity: lecture_number
+  event_type:
+    type: categorical
+    values:
+      - lab
+      - tutorial
+      - lecture
+    mappings:
+      - type: from_entity
+        entity: event_type

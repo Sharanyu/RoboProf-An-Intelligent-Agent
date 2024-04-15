@@ -1,0 +1,129 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: get course information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_course
+  - action: action_course_info
+
+- story: get topics covered in course event
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: topics_in_course_event
+  - action: action_topics_in_course_event
+
+- story: get event covering topic in course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_event_coverage_topic
+  - action: action_course_event_coverage_topic
+
+- story: List courses at Concordia University
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: list_cu_course
+  - action: action_list_cu_course
+
+- story: get all courses subject wise
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: list_cu_course_subject_wise
+  - action: action_list_cu_course_from_subject
+
+- story: get total credits of course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_credits
+  - action: action_course_credits
+
+- story: get additonal resources for course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: additional_resources
+  - action: action_additional_resources
+  
+- story: get reading materials for topic in course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: reading_materials_for_topic
+  - action: action_list_reading_materials
+
+- story: topics obtained after passing the course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: obtaining_topics_after_passing_course
+  - action: action_topics_obtained_after_course
+
+- story: student performance in a course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: student_course_performance
+  - action: action_student_course_performance
+
+- story: students performance in a course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_performance
+  - action: action_course_performance
+
+- story: students transcript
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: students_transcript
+  - action: action_students_transcript
+
+- story: listing the lecture contents for course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_lecture_contents
+  - action: action_course_lecture_contents
+
+- story: listing the contents for course for a topic
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_content_for_topics
+  - action: action_get_course_content_for_topics
+  

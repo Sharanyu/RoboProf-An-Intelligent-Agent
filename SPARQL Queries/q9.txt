@@ -3,15 +3,20 @@ PREFIX schema1: <http://schema.org/>
 PREFIX rb: <http://ROBOPROF.org/class#>
 PREFIX rb_data: <http://ROBOPROF.org/data#>
 PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT ?lecture ?slides
-WHERE {
-  ?course a schema1:Course .
-  ?course dbcore:subject ?subject .
-  ?course rb:containsLecture ?lecture .
-  ?lecture rb:slides ?slides .
-  ?lecture rb:coversTopic ?topic .
-  ?topic rdfs:label ?topicLabel .
-  FILTER(REGEX(?topicLabel, "version", "i"))
-  FILTER (?subject = "SOEN")
-}
+SELECT DISTINCT ?course ?topicLabel ?source
+    WHERE {{
+        ?course a schema1:Course .
+        {{
+            {{ ?course rb:containsLab ?event . BIND("Lab" AS ?eventType) }}
+            UNION
+            {{ ?course rb:containsLecture ?event . BIND("Lecture" AS ?eventType) }}
+        }}
+        ?event rb:coversTopic ?topic .
+        ?topic rdfs:label ?topicLabel .
+        ?topic dcterms:source ?source .
+        FILTER regex(?topicLabel, "software", "i")
+        FILTER (?course = rb_data:SOEN6431)
+        FILTER (regex(str(?source), "readings", "i"))
+    }}

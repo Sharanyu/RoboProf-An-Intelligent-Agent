@@ -1,16 +1,28 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema1: <http://schema.org/>
 PREFIX rb: <http://ROBOPROF.org/class#>
 PREFIX rb_data: <http://ROBOPROF.org/data#>
 PREFIX dbpedia_p: <http://dbpedia.org/property/>
 
-SELECT ?lecture ?lectureNumber (GROUP_CONCAT(?slides; separator="; ") AS ?slides_content) (GROUP_CONCAT(?readings; separator="; ") AS ?readings_content)
-WHERE {
-  ?course a schema1:Course .
-  ?course rb:containsLecture ?lecture .
-  ?lecture dbpedia_p:number ?lectureNumber .
-  OPTIONAL { ?lecture rb:slides ?slides . }
-  OPTIONAL { ?lecture rb:readings ?readings . }
-  FILTER (?lectureNumber = "03" && ?course = rb_data:SOEN6431)
-}
-GROUP BY ?lecture ?lectureNumber
+SELECT ?ContentsAvailable
+        WHERE {{
+        BIND(rb_data:COMP6741_Lecture02_LectureContent AS ?lectureContent)
+        {{
+            ?lectureContent rdf:type rb:LectureContent .
+            ?lectureContent rb:slides ?contents .
+            BIND(?contents AS ?ContentsAvailable)
+        }}
+        UNION
+        {{
+            ?lectureContent rdf:type rb:LectureContent .
+            ?lectureContent rb:readings ?contents .
+            BIND(?contents AS ?ContentsAvailable)
+        }}
+        UNION
+        {{
+            ?lectureContent rdf:type rb:LectureContent .
+            ?lectureContent rb:worksheets ?contents .
+            BIND(?contents AS ?ContentsAvailable)
+        }}
+        }}

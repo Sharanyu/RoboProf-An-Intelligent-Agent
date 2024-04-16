@@ -2,6 +2,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema1: <http://schema.org/>
 PREFIX dbpedia_p: <http://dbpedia.org/property/>
 PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
 
 SELECT DISTINCT ?additionalResources
 WHERE {

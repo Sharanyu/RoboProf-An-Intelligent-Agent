@@ -7,10 +7,11 @@ Sushant Sharma - 40227986
 
 Readme file:
 
-------File Contents------
+------File Contents KB creation------
+For Knowledge. base creation.
 
 Python Scripts:
-	-annotate.py (python script which extracts text from lecture content and gets topic information from DBPEDIA using spotlight services)
+	-annotate.py (python script which extracts text from lecture/lab contents using Tika, uses spacy to filter entities and gets topic information from DBPEDIA using spotlight services)
 	-data_loader.py (helper script which reads course and course_description data and merges to provide a consolidated data)
 	-get_files.py (helper script which returns file paths for each of the lecture content)
 	-graph.py (python script to generate the main knowledge base using other datasets and files.)
@@ -39,39 +40,57 @@ KnowledgeBase:
 	-vocabulary.ttl (RDF schema created as the first step of the project which contains vocabulary used for generating the knowledge graph.)
 
 SPARQL Queries:
-	- all the 13 (assignment) + 3 additional queries in .txt format (q1.txt,q2.txt....)
+	- all the 13 (assignment) + 3 additional queries in .txt format (q1.txt,q2.txt....) + 3 for A2
 	Query_results:
 		-results for all the 13 (assignment) + 3 additional queries in .csv format (q1-out.txt,q2-out.txt....)
 
+------File Contents ChatBot------
 
----------STEPS TO GENERATE THE KNWOELDGE BASE---------
+Python Scripts:
+	-actions/action.py (python script which has the action classes which get triggered when an intent is identified by the chatBot.)
+	-chatBot.py (Python script which connects to fuseki server to send the user's query and fetch data from the uploaded knowledge base)
 
-To populate the knowledge base, execute the Python scripts sequentially, reflecting their dependencies:
+YAML files:
+	-data/NLU.yml: Defines the Natural Language Understanding configuration, including intent and entity training examples.
+	-data/stories.yml: Contains stories that are example conversations defining the sequences of intents and actions to train the dialogue management.
+	-data/rules.yml: Specifies rules for deterministic behavior of the conversation, guiding the dialogue for specific sequences of intents and actions.
+	-config.yml: Configures the processing pipelines and policies for both NLU and dialogue management components.
+	-domain.yml: Describes the conversational domain, including intents, entities, slots, responses, and actions available to the assistant.
+	-endpoints.yml: Configures the connection details to external services like databases, analytics, or custom action servers.
+	-test_stories.yml: Provides test cases in the form of stories to evaluate the performance and consistency of the dialogue management.
 
-High level Instructions:
-1. Execute annotate.py. In the terminal, go inside the project folder and type “python3 annotate.py” and press enter. This file will generate the topics from Dbpedia(topic_info.csv) inside the data/spotlight_data/ folder.
-2. Execute graph.py – This file generates the rbpgraph.ttl and rbpgraph.nt inside the KnowledgeBase folder. In the terminal, in the same project directory, type “python3 graph.py” and press enter. The rbpgraph files will be generated inside KnowledgeBase folder.
+Model files:
+	-/models/20240414-194911-chocolate-heap.tar.gz model: Compressed file containing the trained components of both the NLU (Natural Language Understanding) and dialogue management models. These are used together to interpret user inputs and decide on the actions the chatbot should take in response.
+
+
+---------STEPS TO GENERATE THE KNWOELDGE BASE and activate the CHATBOT---------
 
 Note: If the files are already existing in the project, you can delete them and execute it again or execute it as it is as the files will be overwritten.
 
-To Run the application in your Local PC:
 
----------- METHOD 1 (EASY) ----------
-a)	Make sure you have docker installed and the services are running.
-b)	Go to https://drive.google.com/drive/folders/1it5YnOWJpxX1Lnz6DwgFMaPggsjWsOuU?usp=sharing and download the roboprof.tar file and save it in a folder or in the project folder itself
-c) 	Open Docker desktop for monitoring.
-d)	Open the terminal and go to the folder where the roboprof.tar file is saved.
-e)	In the terminal type “docker load < roboprof.tar”.
-f)	Once the load is completed, in the terminal window -  type “docker run -it roboprof” and press enter.
-g)	Now run “python3 annotate.py” (takes about 5-6 mins as you are in container environment) - This step is also optional as we have a topic_info.csv in the data folder already.
-h)	Next run “python3 graph.py”.
-i)	Navigate to the KnowledgeBase folder to check if the rbpgraph files are generated.
+---------- To Run the application in your Local PC ------------
 
----------- METHOD 2 ----------
-If you are using MacOS
-a.	Extract the zip file in a folder.
-b.	Open the project in a terminal or IDE.
-c.	Execute annotate.py (optional)
-d.	Execute graph.py
+To create the KnowledgeBase
+a)	Extract the zip file in a folder.
+b)  Open the project in a terminal or IDE.
+c)	Now run “python3 annotate.py” - This step is also optional as we have a topic_info.csv in the data folder already.
+d)	Next run “python3 graph.py”.
+e)	Navigate to the KnowledgeBase folder to check if the rbpgraph files are generated.
+f) Upload the rbpgraph.ttl to the fuseki server and name the dataset as "roboprof". Make sure the fuseki server is running for the next processes.
+
+Next, to interact with the chatbot.
+
+g) Open a new terminal in the IDE and run "rasa train" to create a model file. There should already be a model file exisiting in the models folder, just in case.
+
+h) In the same terminalin the IDE, run "rasa shell" to start the rasa shell. meanwhile create another terminal parallely.
+
+i) Once the rasa shell command execution is complete, type "rasa run actions" in the newly created terminal.
+
+j) Once the rasa run actions command is executed and the rasa actions server starts, Switch back to the previous terminal, you should now see a yellow arrow prompt icon to start typing. 
+
+k) Start with "Hi bot, How are you?" to check if bot is working.
+
+l) Now you can start typing the project related prompts. Example an easy one. "List all the courses provided."
+
 
 If you face any issues with the file paths, you can update the rbp_config.yaml based on your system.

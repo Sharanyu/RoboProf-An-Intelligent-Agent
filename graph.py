@@ -390,4 +390,4 @@ for s, p, c in course_graph.triples((None, RDF.type, SCHEMA.Course)):
 RBP_graph.serialize("KnowledgeBase/rbpgraph.ttl", format="ttl")
 RBP_graph.serialize("KnowledgeBase/rbpgraph.nt", format="nt")
 
-# setup_fuseki.update_data(fuseki_path, KB)
+# chatBot.update_data(fuseki_path, KB)

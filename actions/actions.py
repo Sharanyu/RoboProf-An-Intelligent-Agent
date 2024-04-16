@@ -8,7 +8,6 @@ import chatBot as fus
 
 
 class ActionCourseInfo(Action):
-
     def name(self) -> Text:
         return "action_course_info"
 
@@ -18,13 +17,21 @@ class ActionCourseInfo(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
 
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         course = tracker.slots["course"]
         if course is None or not course:
             dispatcher.utter_message(text=f"Sorry, I'm not sure I understand")
             return []
 
         res = fus.get_course_description(course)
+
         if res is None or res[0] is None or res[1] is None:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find a description for {course}"
@@ -49,10 +56,17 @@ class ActionTopicsCourseInCourseEvent(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         course = tracker.slots["course"]
         event_type = tracker.slots["event_type"]
         number = tracker.slots["lecture_number"]
-
         if course is None or event_type is None or number is None:
             dispatcher.utter_message(text=f"Sorry, I'm not sure I understand")
             return []
@@ -92,11 +106,17 @@ class ActionCourseEventCoverageTopic(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         topic = tracker.slots["topic"]
-        print(topic)
-        print("line 97 ninside actions")
+
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
+
         instances = fus.find_topic_in_course(topic)
-        print("instances")
-        print(instances)
         if instances is None or not instances:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find {topic} in any course!"
@@ -126,9 +146,19 @@ class ActionListAllCourseCU(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
 
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         instances = fus.list_all_course_CU()
-        len_ins = len(instances)
+        try:
+            len_ins = len(instances)
+        except Exception as e:
+            print("could'nt find any courses as of now!")
         if instances is None or not instances:
             dispatcher.utter_message(text=f"Sorry, I can't seem to find any course!")
             return []
@@ -157,12 +187,17 @@ class ActionListAllCourseCUdeptwise(Action):
     ) -> List[Dict[Text, Any]]:
 
         subject = tracker.slots["subject"]
-        print(subject)
-        print("not getting data?")
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         instances = fus.list_all_course_CU_from_subject(subject)
         len_ins = len(instances)
-        print(len_ins)
-        print("here 172")
+
         if instances is None or not instances:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find any course in {subject} domain!"
@@ -196,7 +231,14 @@ class ActionCourseCredits(Action):
         if course is None or not course:
             dispatcher.utter_message(text=f"Sorry, I'm not sure I understand")
             return []
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
 
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         res = fus.get_credits_count(course)
         if res is None:
             dispatcher.utter_message(
@@ -227,10 +269,17 @@ class ActionAdditionalResources(Action):
         if course is None or not course:
             dispatcher.utter_message(text=f"Sorry, I'm not sure I understand")
             return []
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
 
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         res = fus.get_additional_resources(course)
         total = len(res)
-        print(total)
+
         if res is None:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find any additional resources for {course}"
@@ -259,10 +308,16 @@ class ActionListReadingMaterials(Action):
 
         course = tracker.slots["course"]
         topic = tracker.slots["topic"]
-        print(course)
-        print(topic)
-        instances = fus.find_reading_materials(course, topic)
 
+        instances = fus.find_reading_materials(course, topic)
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         if topic is None or course is None or instances is None:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find any reading materials for {topic} in {course}!"
@@ -293,10 +348,16 @@ class ActionObtainTopicsAfterCourse(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         course = tracker.slots["course"]
-        print(course)
-        print("line 97 ninside actions")
-        instances = fus.obtain_topics_after_passing_course(course)
 
+        instances = fus.obtain_topics_after_passing_course(course)
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         if instances is None:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find any topics in {course}!"
@@ -329,7 +390,14 @@ class ActionStudentCoursePerformance(Action):
         fname = tracker.slots["firstname"]
         lname = tracker.slots["lastname"]
         course = tracker.slots["course"]
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
 
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         instances = fus.student_course_performance(fname, lname, course)
 
         if instances is None:
@@ -362,9 +430,15 @@ class ActionCoursePerformance(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         course = tracker.slots["course"]
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
 
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         instances = fus.students_course_completed(course)
-        print(len(instances))
         if instances is None:
             dispatcher.utter_message(
                 text=f"Sorry, I can't seem to find any records for {course}!"
@@ -392,6 +466,14 @@ class ActionStudentTranscript(Action):
     ) -> List[Dict[Text, Any]]:
         firstname = tracker.slots["firstname"]
         lastname = tracker.slots["lastname"]
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
 
         instances = fus.students_transcript(firstname, lastname)
         if instances is None:
@@ -422,8 +504,14 @@ class ActionCourseLectureContents(Action):
 
         course = tracker.slots["course"]
         num = tracker.slots["lecture_number"]
-        print("course: ", course)
-        print("lecnumber: ", num)
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         if course is None or not course:
             dispatcher.utter_message(text=f"Sorry, I'm not sure I understand")
             return []
@@ -456,8 +544,15 @@ class ActionCourseContentForTopics(Action):
 
         course = tracker.slots["course"]
         topic = tracker.slots["topic"]
-        print("course: ", course)
-        print("topic: ", topic)
+
+        print("--------")
+        intent_name = tracker.latest_message["intent"].get("name", "")
+
+        entities = tracker.latest_message["entities"]
+        print(f"Entities recognized are: {entities}")
+
+        print("Intent recognized as :", intent_name)
+        print("--------")
         if course is None or not course:
             dispatcher.utter_message(text=f"Sorry, I'm not sure I understand")
             return []

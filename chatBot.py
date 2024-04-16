@@ -24,11 +24,12 @@ RB_DATA = Namespace("http://ROBOPROF.org/data#")
 
 def create_sparql_query(query):
     try:
-        print("im here make query")
+
         rows = requests.get(FUSEKI_BASE_URL, params={"query": query})
-        print("make query success ?")
+        print("\nQUERY GENERATED: \n")
+        print(query)
+        print("\n-------------------\n")
         rows.raise_for_status()
-        print("before returnsing rows")
         return rows
     except requests.exceptions.RequestException as e:
         print(e)
@@ -36,10 +37,11 @@ def create_sparql_query(query):
 
 
 def get_binding_data(query_result):
-    print("results are here")
 
     results = query_result.get("results", None)
-    print(results)
+    print("\nRAW RESULT: \n")
+    print(results, "\n")
+    print("\n--------------\n")
     if results is None:
         return None
 
@@ -51,9 +53,7 @@ def get_binding_data(query_result):
 
 
 def update_data(fuseki_path, KB):
-    local_time = datetime.datetime.now()
-    formatted_time = local_time.strftime("%Y-%m-%d_%H-%M-%S")
-    dataset_name = "roboprof_" + formatted_time
+    dataset_name = "roboprof"
     fuseki_full_path = os.path.join(os.getcwd(), fuseki_path)
     data_file_full_path = os.path.join(os.getcwd(), KB)
 
@@ -68,11 +68,9 @@ def update_data(fuseki_path, KB):
 def get_course_description(course):
 
     course = URIRef(RB_DATA + f"{course}")
-    print(course)
 
     q = f"SELECT ?title ?description WHERE {{ <{course}> a schema1:Course; dbcore:title ?title; schema_t:description ?description. }}"
-    print("im here")
-    print(namespaces + q)
+
     rows = create_sparql_query(namespaces + q)
     if rows is None:
         return None
@@ -84,10 +82,7 @@ def get_course_description(course):
     bindings = bindings[0]
     course_name = bindings.get("title", None)
     course_descr = bindings.get("description", None)
-    print("hehe")
-    print(course_name)
-    print(course_descr)
-    print("haha")
+
     if course_name is None or course_descr is None:
         return None
 
@@ -97,7 +92,6 @@ def get_course_description(course):
 def topics_from_lectures(course, num):
 
     course = URIRef(RB_DATA + f"{course}")
-    print(course)
 
     q = """ SELECT ?lecture ?topicLabel ?source
         WHERE {{
@@ -113,6 +107,7 @@ def topics_from_lectures(course, num):
     )
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
 
@@ -144,7 +139,6 @@ def topics_from_lectures(course, num):
 def topics_from_labs(course, num):
 
     course = URIRef(RB_DATA + f"{course}")
-    print(course)
 
     q = """ SELECT ?lab ?topicLabel ?source
         WHERE {{
@@ -160,6 +154,7 @@ def topics_from_labs(course, num):
     )
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
 
@@ -212,6 +207,7 @@ def find_topic_in_course(topic):
         topic=topic
     )
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
     print("rows", rows)
@@ -252,6 +248,7 @@ def list_all_course_CU():
     FILTER (?university = rb_data:Concordia_University)
     } LIMIT 200"""
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
 
@@ -294,6 +291,7 @@ SELECT ?course (CONCAT(?subject, " ", ?courseCode, ": ", ?title) AS ?courseDetai
     )
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
 
@@ -326,7 +324,7 @@ def get_credits_count(course):
     print(course)
 
     q = f"SELECT ?subject ?courseCode ?credits WHERE {{ <{course}> a schema1:Course; dbcore:subject ?subject; dbpedia_p:number ?courseCode ; rb:numberOfCredits ?credits .}}"
-    print(namespaces + q)
+
     rows = create_sparql_query(namespaces + q)
     if rows is None:
         return None
@@ -365,6 +363,7 @@ def get_additional_resources(course):
         }}"""
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
 
@@ -413,9 +412,9 @@ def find_reading_materials(course, topic):
     }}"""
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
-    print("rows", rows)
     bindings = get_binding_data(rows.json())
     if bindings is None:
         return None
@@ -466,9 +465,9 @@ def obtain_topics_after_passing_course(course):
         course=course
     )
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
-    print("rows", rows)
     bindings = get_binding_data(rows.json())
     if bindings is None:
         return None
@@ -513,9 +512,9 @@ def student_course_performance(fname, lname, course):
         fname=fname, lname=lname, course=course
     )
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
-    print("rows", rows)
     bindings = get_binding_data(rows.json())
     if bindings is None:
         return None
@@ -657,6 +656,7 @@ def get_lecture_contents(course, num):
     )
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
 
@@ -705,6 +705,7 @@ def get_contents_for_topic(course, topic):
     }}"""
 
     rows = create_sparql_query(namespaces + q)
+
     if rows is None:
         return None
     print("rows", rows)

@@ -19,11 +19,12 @@ pipeline:
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: CountVectorsFeaturizer # word-level and character-level (char_wb) features
+  OOV_token: __oov__
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
-  epochs: 200
+  epochs: 150
   constrain_similarities: true
 - name: EntitySynonymMapper
 - name: ResponseSelector

@@ -1,0 +1,29 @@
+PREFIX schema1: <http://schema.org/>
+PREFIX rb: <http://ROBOPROF.org/class#>
+PREFIX rb_data: <http://ROBOPROF.org/data#>
+PREFIX dbpedia_o: <http://dbpedia.org/ontology/>
+PREFIX dbcore: <http://purl.org/dc/elements/1.1/>
+PREFIX dbpedia_p: <http://dbpedia.org/property/>
+PREFIX schema_t: <http://schema.org/Thing>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+ SELECT ?course ?event ?eventType (COUNT(?topic) AS ?topicCount)
+        WHERE {{
+        ?course a schema1:Course .
+        {{
+            ?course rb:containsLab ?event .
+            BIND("Lab" AS ?eventType)
+        }}
+        UNION
+        {{
+            ?course rb:containsLecture ?event .
+            BIND("Lecture" AS ?eventType)
+        }}
+        ?event rb:coversTopic ?topic .
+        ?topic rdfs:label ?topicLabel .
+        ?topic dcterms:source ?source .
+        FILTER regex(?topicLabel, "data", "i")
+        }}
+        GROUP BY ?course ?event ?eventType ?topicLabel
+        ORDER BY DESC(?topicCount)

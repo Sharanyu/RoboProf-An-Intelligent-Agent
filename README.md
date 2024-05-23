@@ -18,7 +18,6 @@ Efficient Communication: By handling multiple inquiries simultaneously and provi
 
 # Knowledge graph creation workflow
 ![image](https://github.com/Sharanyu/RoboProf-An-Intelligent-Agent/assets/41756221/756fc425-5125-4e24-b3dd-59b006a220e8)
-)
 
 # Knowledge Base creation
 <p align="justify">
